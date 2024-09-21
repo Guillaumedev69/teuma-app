@@ -1,38 +1,15 @@
 import Link from "next/link";
 import ImgLogo from "./ImgLogo";
-import { FC } from "react";
-import BtnContact from "./BtnContact";
+import Nav from "./Nav";
+import styles from "../styles/Header.module.scss";
 
-const Header: FC = () => {
+const Header = () => {
     return (
-        <header className="">
-            <Link href="">
+        <header className={styles.header}>
+            <Link href="/">
                 <ImgLogo />
             </Link>
-            <Link href="">Accueil</Link>
-            <Link href="">À propos</Link>
-            <button >Nos missions</button>
-            <ul>
-                <li>
-                    <Link href="/missions/comptabilite-gestion">
-                        Comptabilité &amp; Gestion
-                    </Link>
-                </li>
-                <li><Link href="/missions/gestion-rh">
-                    Gestion RH
-                </Link>
-                </li>
-                <li>
-                    <Link href="/missions/developpement-commercial">
-                        Développement commercial
-                    </Link>
-                </li>
-                <li><Link href="/missions/securite-audit">
-                    Sécurité &amp; Audit
-                </Link>
-                </li>
-            </ul>
-            <BtnContact />
+            <Nav />
         </header>
     );
 };

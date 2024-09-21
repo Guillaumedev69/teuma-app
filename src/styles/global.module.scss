@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap");
+
+$font1: "Alef";
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.icon, .iconClose {
+  filter: brightness(0) saturate(1000%) hue-rotate(0deg) contrast(1);
+}
+
+.icon:hover {
+  filter: brightness(200) saturate(10%) hue-rotate(120deg) contrast(0);
+}
+
+
+.iconClose:hover{
+    filter:none;
+}

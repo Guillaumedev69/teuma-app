@@ -14,16 +14,16 @@ const Footer: FC = () => {
                     Nos missions
                 </p>
                 <ul>
-                    <Link href="/">
+                    <Link href="/missions/comptabilite-gestion">
                         <li>COMPTABILITÉ & GESTION</li>
                     </Link>
-                    <Link href="/">
+                    <Link href="/missions/gestion-rh">
                         <li>GESTION RH</li>
                     </Link>
-                    <Link href="/">
+                    <Link href="/missions/developpement-commercial">
                         <li>DÉVELOPPEMENT COMMERCIAL</li>
                     </Link>
-                    <Link href="/">
+                    <Link href="/missions/securite-audit">
                         <li>SÉCURITÉ ET AUDIT</li>
                     </Link>
                 </ul>
