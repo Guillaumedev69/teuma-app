@@ -1,16 +1,15 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import styles from "../../../styles/Securite.module.scss"
+import Cards from "@/components/Cards";
 
 
-import { FC } from "react";
-
-
-const page: FC = () => {
+const page = () => {
     const donneesCard = [
         {
             id: 1,
             title: "Audit sécurité des biens et des personnes",
-            descricription: "",
+            description: "",
         },
         {
             id: 2,
@@ -32,7 +31,11 @@ const page: FC = () => {
         <div>
             <Header />
             <h1>Sécurité &amp; Audit</h1>
-
+            <div className={styles.cardsGrid}>
+                {donneesCard.map((card) => (
+                    <Cards key={card.id} title={card.title} description={card.description} />
+                ))}
+            </div>
             <Footer />
         </div>
     );
