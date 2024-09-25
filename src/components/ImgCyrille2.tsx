@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PhotoCyrille2 from "../images/photoCyrille2.png"
+import PhotoCyrille2 from "../images/photoCyrille2.webp"
 const ImgCyrille2 = () => {
     return (
         <div>

@@ -8,7 +8,7 @@ const Nav = () => {
     const [isVisible, setIsVisible] = useState(false);
 
     const handleButtonClick = () => {
-        setIsVisible(!isVisible); // Toggle la visibilité de la liste
+        setIsVisible(!isVisible);
     };
 
     return (
