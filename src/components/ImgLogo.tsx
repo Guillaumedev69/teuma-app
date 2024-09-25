@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Logo from "../images/logoTeuma.webp"
-import { FC } from "react";
 
 
-const ImgLogo: FC = () => {
+
+const ImgLogo = () => {
     return (
         <div>
-            <Image src={Logo} alt="Logo de la société Teuma SME" height={133} width={300}/>
+            <Image src={Logo} alt="Logo de la société Teuma SME" height={133} width={300} priority={true}/>
         </div>
     );
 };

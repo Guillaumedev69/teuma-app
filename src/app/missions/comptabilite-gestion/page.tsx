@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Cards from "@/components/Cards";
-import styles from "../../../styles/Compta.module.scss";
+import styles from "@/styles/Compta.module.scss";
 
 const Page = () => {
     const donneesCard = [

@@ -42,6 +42,11 @@ const Nav = () => {
                             Sécurité &amp; Audit
                         </Link>
                     </li>
+                    <li>
+                        <Link href="/missions/formation">
+                            Formation
+                        </Link>
+                    </li>
                 </ul>
             )}
             <BtnContact />

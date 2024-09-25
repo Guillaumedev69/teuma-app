@@ -1,36 +1,41 @@
+import Cards from "@/components/Cards";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import styles from "@/styles/Securite.module.scss"
-import Cards from "@/components/Cards";
+import styles from "@/styles/Formation.module.scss"
 
 
 const page = () => {
     const donneesCard = [
         {
             id: 1,
-            title: "Audit sécurité des biens et des personnes",
-            description: "",
+            title: ``,
+            description: ``,
         },
         {
             id: 2,
-            title: "Mise en place de DUERP",
-            description: "",
+            title: ``,
+            description: ``,
         },
         {
             id: 3,
-            title: "Aide à la gestion du CSE, du CSSCT et des IRP",
-            description: "",
+            title: ``,
+            description: ``,
         },
         {
             id: 4,
-            title: "Aide à la mise en place de procédures administratives et opérationnelles",
-            description: "",
+            title: ``,
+            description: ``,
         },
-    ]
+        {
+            id: 5,
+            title: ``,
+            description: ``,
+        },
+    ];
     return (
         <div>
             <Header />
-            <h1>Sécurité &amp; Audit</h1>
+            <h1>Formation</h1>
             <div className={styles.cardsGrid}>
                 {donneesCard.map((card) => (
                     <Cards key={card.id} title={card.title} description={card.description} />

@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import styles from "../../../styles/GestionRh.module.scss"
+import styles from "@/styles/GestionRh.module.scss"
 import Cards from "@/components/Cards";
 
 

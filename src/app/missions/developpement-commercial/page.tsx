@@ -1,7 +1,7 @@
 import Cards from "@/components/Cards";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import styles from "../../../styles/Developpement.module.scss"
+import styles from "@/styles/Developpement.module.scss"
 
 
 const page= () => {

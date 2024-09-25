@@ -1,7 +1,7 @@
-import { FC } from "react";
+
 import Link from "next/link";
 
-const page: FC = () => {
+const page = () => {
     return (
         <>
             <h1>Missions Liste</h1>
