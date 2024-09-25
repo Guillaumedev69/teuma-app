@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import BtnContact from "./BtnContact";
-import styles from "../styles/Nav.module.scss";
+import styles from "@/styles/Nav.module.scss";
 
 const Nav = () => {
     const [isVisible, setIsVisible] = useState(false);

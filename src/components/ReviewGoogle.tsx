@@ -1,7 +1,4 @@
-import { FC } from "react";
-
-
-const ReviewGoogle: FC = () => {
+const ReviewGoogle = () => {
     return (
         <div>
 

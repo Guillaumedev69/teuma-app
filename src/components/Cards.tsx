@@ -1,4 +1,4 @@
-import styles from "../styles/Cards.module.scss";
+import styles from "@/styles/Cards.module.scss";
 
 // Définir le type des props
 interface CardsProps {

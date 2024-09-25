@@ -3,7 +3,7 @@ import ImgCall2 from "./ImgCall2";
 import ImgClose from "./ImgClose";
 import ImgMail2 from "./ImgMail2";
 import { useState } from "react";
-import styles from "../styles/BtnContact.module.scss"
+import styles from "@/styles/BtnContact.module.scss"
 
 
 const BtnContact = () => {

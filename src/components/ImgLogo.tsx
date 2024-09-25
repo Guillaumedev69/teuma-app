@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../images/logoTeuma.webp"
+import Logo from "@/images/logoTeuma.webp"
 
 
 

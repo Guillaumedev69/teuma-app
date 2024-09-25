@@ -1,6 +1,6 @@
 import Image from "next/image";
-import IconMail from "../images/envelope-regular.svg"
-import styles from "../styles/Global.module.scss"
+import IconMail from "@/images/envelope-regular.svg"
+import styles from "@/styles/Global.module.scss"
 
 const ImgMail2 = () => {
     return (

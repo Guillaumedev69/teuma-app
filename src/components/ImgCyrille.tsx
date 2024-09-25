@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Cyrille from "../images/photoCyrille.webp"
+import Cyrille from "@/images/photoCyrille.webp"
 
 
 const ImgCyrille = () => {

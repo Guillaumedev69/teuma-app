@@ -1,5 +1,5 @@
 import Image from "next/image";
-import IconCall from "../images/call-icon.svg"
+import IconCall from "@/images/call-icon.svg"
 
 const ImgCall = () => {
     return (

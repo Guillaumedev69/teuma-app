@@ -1,12 +1,11 @@
 import Link from "next/link";
-import { FC } from "react";
 import ImgLogoLinkedin from "./ImgLogoLinkedin";
 import ImgCall from "./ImgCall";
 import ImgMail from "./ImgMail";
 
 
 
-const Footer: FC = () => {
+const Footer= () => {
     return (
         <footer>
             <div>

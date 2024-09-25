@@ -1,7 +1,4 @@
-import { FC } from "react";
-
-
-const BtnReview: FC = () => {
+const BtnReview = () => {
     return (
         <button>
             Votre avis nous intéresse
