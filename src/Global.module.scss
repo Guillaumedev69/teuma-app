@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 $font1: "Alef";
+$font2:"Montserrat";
+$font3:"Overpass";
 
 .body {
   margin: 0;
   padding: 0;
+  font-family: $font3;
+  background-color: #EDEDEF;
 }
 
 .icon, .iconClose {

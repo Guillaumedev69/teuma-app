@@ -1,0 +1,22 @@
+.imgContain {
+  position: relative;
+  display: inline-block; /* Cela permet de maintenir les deux éléments sur la même ligne */
+}
+
+.backgroundImg {
+  position: absolute;
+  bottom: 0;
+  width: 29rem;
+  height: 32rem;
+  border-radius: 40px;
+  background: #c7e2e9;
+  box-shadow: 1px -6px 10px 1px #c7e2e9;
+  z-index: 1;
+}
+
+.img {
+  position: relative;
+  z-index: 2;
+  right: -50px;
+  bottom: -5px;
+}
