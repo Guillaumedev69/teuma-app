@@ -66,9 +66,13 @@ Intervenant déjà auprès d’organismes de formation, je saurai vous proposer 
             <Header />
             <h1>Gestion RH</h1>
             <div className={styles.cardsGrid}>
-
-                {donneesCard.map((card) => (
-                    <Cards key={card.id} title={card.title} description={card.description} />
+                {donneesCard.map((card, index) => (
+                    <Cards
+                        key={card.id}
+                        index={index}
+                        title={card.title}
+                        description={card.description}
+                    />
                 ))}
             </div>
             <Footer />
