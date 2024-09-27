@@ -1,0 +1,82 @@
+@import "../Global.module.scss";
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .footerFirst {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font2;
+    font-weight: bold;
+    background-color: #a8e1fb;
+    color: #000;
+    .missionContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-left: 4rem;
+      .missionTitle {
+        text-decoration: underline;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2rem;
+      }
+      ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+        li {
+          list-style: none;
+        }
+      }
+    }
+    .linkContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-right: 6rem;
+      font-size: 1.2rem;
+      text-align: center;
+      a {
+        color: #000;
+      }
+    }
+    .contactContainer {
+      display: flex;
+      flex-direction: column;
+      margin-right: 4rem;
+      .contactContainerP {
+        font-size: 1.2rem;
+        text-decoration: underline;
+      }
+      .linkContactContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1.3rem;
+      }
+    }
+  }
+  .footerSecond {
+    padding-bottom: 1rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: $font3;
+    font-size: 1.2rem;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

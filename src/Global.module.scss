@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
 $font1: "Alef";
-$font2:"Montserrat";
-$font3:"Overpass";
+$font2: "Montserrat";
+$font3: "Overpass";
 
 .body {
   margin: 0;
   padding: 0;
   font-family: $font3;
-  background-color: #EDEDEF;
+  background-color: #ededef;
 }
 
-.icon, .iconClose {
+
+.icon,
+.iconClose {
   filter: brightness(0) saturate(1000%) hue-rotate(0deg) contrast(1);
 }
 
@@ -20,7 +22,6 @@ $font3:"Overpass";
   filter: brightness(200) saturate(10%) hue-rotate(120deg) contrast(0);
 }
 
-
-.iconClose:hover{
-    filter:none;
+.iconClose:hover {
+  filter: none;
 }

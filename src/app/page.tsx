@@ -15,9 +15,10 @@ import Image from "next/image"
 
 
 export default function Home() {
-    return (<div>
+    return (
+    <div className={styles.homePage}>
         <Header />
-        <div className={styles.h1BtnImgContain}>
+        <section className={styles.sectionIntro}>
             <div className={styles.h1BtnContain}>
                 <h1 className={styles.titleh1}>
                     Stratégie<br />
@@ -27,29 +28,8 @@ export default function Home() {
                 <BtnContact />
             </div>
             <ImgCyrille />
-        </div>
-        <div className={styles.sectionHexagone}>
-            <div className={styles.hexagon1Container}>
-                <Image src={Polygon1} alt="hexagone" className={styles.polygon1} />
-                <div className={styles.hexagoneFirst}>
-                    <p className={styles.hexagoneFirstP}>À la recherche de solutions ponctuelles ou durables
-                        pour gérer et développer votre entreprise ?
-                    </p>
-                </div>
-                <Image src={Polygon1bis} alt="hexagone" className={styles.polygon1bis} />
-            </div>
-            <div className={styles.hexagone2Container}>
-                <Image src={Polygon2bis} alt="hexagone" className={styles.polygon2bis} />
-                <div className={styles.hexagoneSecond}>
-                    <p className={styles.hexagoneSecondP}>ACCOMPAGNEMENT
-                        DES DIRIGEANTS
-                        dans leur stratégie
-                        tactique et
-                        operationnelle
-                    </p>
-                </div>
-                <Image src={Polygon2} alt="hexagone" className={styles.polygon2} />
-            </div>
+        </section>
+        <section className={styles.sectionHexagone}>
             <div className={styles.hexagone3Container}>
                 <Image src={Polygon3bis} alt="hexagone" className={styles.polygon3bis} />
                 <div className={styles.hexagoneThird}>
@@ -61,9 +41,33 @@ export default function Home() {
                 </div>
                 <Image src={Polygon3} alt="hexagone" className={styles.polygon3} />
             </div>
-        </div>
-        <h2>Vos avis sont importants</h2>
-        <ReviewGoogle />
+            <div className={styles.hexagon1Container}>
+                <Image src={Polygon1} alt="hexagone" className={styles.polygon1} />
+                <div className={styles.hexagoneFirst}>
+                    <p className={styles.hexagoneFirstP}>À la recherche de solutions ponctuelles ou durables
+                        pour gérer et développer votre entreprise ?
+                    </p>
+                </div>
+                <Image src={Polygon2bis} alt="hexagone" className={styles.polygon2bis} />
+            </div>
+            <div className={styles.hexagone2Container}>
+                <Image src={Polygon1bis} alt="hexagone" className={styles.polygon1bis1} />
+
+                <div className={styles.hexagoneSecond}>
+                    <p className={styles.hexagoneSecondP}>ACCOMPAGNEMENT
+                        DES DIRIGEANTS
+                        dans leur stratégie
+                        tactique et
+                        operationnelle
+                    </p>
+                </div>
+                <Image src={Polygon2} alt="hexagone" className={styles.polygon2} />
+            </div>
+        </section>
+        <section className={styles.sectionReview}>
+            <h2>Vos avis sont importants</h2>
+            <ReviewGoogle />
+        </section>
         <Footer />
     </div>
     )

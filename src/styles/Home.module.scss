@@ -1,11 +1,15 @@
 @import "../Global.module.scss";
-.h1BtnImgContain {
-  margin-top: 8rem;
+.homePage{
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+.sectionIntro {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 14rem;
+  gap: 14vw;
   .h1BtnContain {
     display: flex;
     flex-direction: column;
@@ -19,27 +23,26 @@
   }
 }
 .sectionHexagone {
-  margin-top: 15rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
   .hexagon1Container {
     position: relative;
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
     .polygon1 {
       position: relative;
       z-index: 1;
-      left: 21rem;
     }
     .hexagoneFirst {
       position: relative;
       z-index: 2;
-      left: 6rem;
-      top: 4rem;
       display: flex;
       align-items: center;
       justify-content: center;
+      min-width: 400px;
       width: 400px;
       height: 450px;
       background: #000;
@@ -53,31 +56,33 @@
         height: 15rem;
       }
     }
-    .polygon1bis {
+    .polygon2bis {
       position: relative;
-      bottom: 4rem;
-      left: 22rem;
+
     }
   }
   .hexagone2Container {
     position: relative;
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    .polygon1bis1 {
+      position: relative;
+    }
     .polygon2 {
       position: relative;
-      left: 25rem;
+
       z-index: 1;
     }
     .hexagoneSecond {
       position: relative;
-      top: 7rem;
-      left: 45rem;
+
       z-index: 2;
       display: flex;
       align-items: center;
       justify-content: center;
       width: 450px;
+      min-width: 450px;
       height: 500px;
       background: #5a8993;
       clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -90,26 +95,21 @@
         height: 15rem;
       }
     }
-    .polygon2bis {
-      position: relative;
-      top: 11rem;
-      left: 27rem;
-    }
+ 
   }
   .hexagone3Container {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
     .polygon3 {
       position: relative;
-      left: 18rem;
-      bottom: 16rem;
+
       z-index: 1;
     }
     .hexagoneThird {
       position: relative;
-      left: 25rem;
+
       z-index: 2;
       display: flex;
       align-items: center;
@@ -129,8 +129,25 @@
     }
     .polygon3bis {
       position: relative;
-      bottom: 1rem;
-      left: 5rem;
+
     }
   }
+}
+.sectionReview{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  /* Styles pour les téléphones */
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* Styles pour les petites tablettes */
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles pour les tablettes standard */
+}
+@media only screen and (min-width: 1200px) {
+  /* Styles pour les grands écrans de bureau */
+}
+@media only screen and (min-width: 1400px) {
+  /* Styles pour les très grands écrans */
 }
