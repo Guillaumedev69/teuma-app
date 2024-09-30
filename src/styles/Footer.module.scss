@@ -1,82 +1,373 @@
 @import "../Global.module.scss";
-.footer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  .footerFirst {
+
+@media only screen and (max-width: 600px) {
+  .footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: $font2;
-    font-weight: bold;
-    background-color: #a8e1fb;
-    color: #000;
-    .missionContainer {
+    flex-direction: column;
+    width: 100%;
+    .footerFirst {
+      padding: 0.5rem 0;
       display: flex;
+      gap: 1rem;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
-      text-align: center;
-      margin-left: 4rem;
-      .missionTitle {
-        text-decoration: underline;
-        font-weight: bold;
-        text-align: center;
-        font-size: 1.2rem;
-      }
-      ul {
-        padding: 0;
+      align-items: center;
+      font-family: $font1;
+      font-weight: bold;
+      background-color: #a8e1fb;
+      color: #000;
+      .missionContainer {
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        .missionTitle {
+          margin: 0;
+          text-decoration: underline;
+          font-weight: bold;
+          text-align: center;
+          font-size: 0.9rem;
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 0.1rem;
+        }
+        a {
+          color: #000;
+          text-decoration: none;
+          li {
+            list-style: none;
+            font-size: 0.9rem;
+          }
+        }
+        a:hover {
+          color: #605c5c;
+        }
       }
-      a {
-        color: #000;
-        text-decoration: none;
-        li {
-          list-style: none;
+      .linkContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
+        a {
+          color: #000;
+        }
+        a:hover {
+          color: #605c5c;
+        }
+      }
+      .contactContainer {
+        display: flex;
+        flex-direction: column;
+        .contactContainerP {
+          font-size: 0.9rem;
+          text-decoration: underline;
+        }
+        .linkContactContainer {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          gap: 1.3rem;
         }
       }
     }
-    .linkContainer {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      margin-right: 6rem;
-      font-size: 1.2rem;
+    .footerSecond {
+      padding-bottom: 1rem;
+      background-color: #000;
+      color: #fff;
       text-align: center;
+      font-family: $font2;
+      font-size: 0.7rem;
       a {
-        color: #000;
-      }
-    }
-    .contactContainer {
-      display: flex;
-      flex-direction: column;
-      margin-right: 4rem;
-      .contactContainerP {
-        font-size: 1.2rem;
-        text-decoration: underline;
-      }
-      .linkContactContainer {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 1.3rem;
+        color: #fff;
+        text-decoration: none;
       }
     }
   }
-  .footerSecond {
-    padding-bottom: 1rem;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    font-family: $font3;
-    font-size: 1.2rem;
-    a {
+}
+@media only screen and (min-width: 600px) {
+  /* Styles pour les petites tablettes */
+}
+@media only screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .footerFirst {
+      padding: 0.5rem 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-family: $font1;
+      font-weight: bold;
+      background-color: #a8e1fb;
+      color: #000;
+      .missionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 4rem;
+        .missionTitle {
+          margin: 0;
+          text-decoration: underline;
+          font-weight: bold;
+          text-align: center;
+          font-size: 0.9rem;
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 0.1rem;
+        }
+        a {
+          color: #000;
+          text-decoration: none;
+          li {
+            list-style: none;
+            font-size: 0.9rem;
+          }
+        }
+        a:hover {
+          color: #605c5c;
+        }
+      }
+      .linkContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-right: 6rem;
+        font-size: 0.9rem;
+        text-align: center;
+        a {
+          color: #000;
+        }
+        a:hover {
+          color: #605c5c;
+        }
+      }
+      .contactContainer {
+        display: flex;
+        flex-direction: column;
+        margin-right: 4rem;
+        .contactContainerP {
+          font-size: 0.9rem;
+          text-decoration: underline;
+        }
+        .linkContactContainer {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          gap: 1.3rem;
+        }
+      }
+    }
+    .footerSecond {
+      padding-bottom: 1rem;
+      background-color: #000;
       color: #fff;
-      text-decoration: none;
+      text-align: center;
+      font-family: $font2;
+      font-size: 0.8rem;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .footerFirst {
+      padding: 0.5rem 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-family: $font1;
+      font-weight: bold;
+      background-color: #a8e1fb;
+      color: #000;
+      .missionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 4rem;
+        .missionTitle {
+          margin: 0;
+          text-decoration: underline;
+          font-weight: bold;
+          text-align: center;
+          font-size: 1rem;
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 0.1rem;
+        }
+        a {
+          color: #000;
+          text-decoration: none;
+          li {
+            list-style: none;
+            font-size: 1rem;
+          }
+        }
+        a:hover {
+          color: #605c5c;
+        }
+      }
+      .linkContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-right: 6rem;
+        font-size: 1rem;
+        text-align: center;
+        a {
+          color: #000;
+        }
+        a:hover {
+          color: #605c5c;
+        }
+      }
+      .contactContainer {
+        display: flex;
+        flex-direction: column;
+        margin-right: 4rem;
+        .contactContainerP {
+          font-size: 1rem;
+          text-decoration: underline;
+        }
+        .linkContactContainer {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          gap: 1.3rem;
+        }
+      }
+    }
+    .footerSecond {
+      padding-bottom: 1rem;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      font-family: $font2;
+      font-size: 1rem;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .footerFirst {
+      padding-top: 0.5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-family: $font1;
+      font-weight: bold;
+      background-color: #a8e1fb;
+      color: #000;
+      .missionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 4rem;
+        .missionTitle {
+          margin: 0;
+          text-decoration: underline;
+          font-weight: bold;
+          text-align: center;
+          font-size: 1.2rem;
+        }
+        ul {
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+        a {
+          color: #000;
+          text-decoration: none;
+          li {
+            list-style: none;
+          }
+        }
+        a:hover {
+          color: #605c5c;
+        }
+      }
+      .linkContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-right: 6rem;
+        font-size: 1.2rem;
+        text-align: center;
+        a {
+          color: #000;
+        }
+        a:hover {
+          color: #605c5c;
+        }
+      }
+      .contactContainer {
+        display: flex;
+        flex-direction: column;
+        margin-right: 4rem;
+        .contactContainerP {
+          font-size: 1.2rem;
+          text-decoration: underline;
+        }
+        .linkContactContainer {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          gap: 1.3rem;
+        }
+      }
+    }
+    .footerSecond {
+      padding-bottom: 1rem;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      font-family: $font2;
+      font-size: 1.2rem;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
     }
   }
 }

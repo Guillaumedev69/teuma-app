@@ -27,6 +27,9 @@ const Footer = () => {
                         <Link href="/missions/securite-audit">
                             <li>SÉCURITÉ ET AUDIT</li>
                         </Link>
+                        <Link href="/missions/formation">
+                            <li>FORMATION</li>
+                        </Link>
                     </ul>
                 </div>
                 <div className={styles.linkContainer}>
@@ -47,7 +50,7 @@ const Footer = () => {
             </div>
             <div className={styles.footerSecond}>
                 <p>Copyright &copy; TEUMA SME - Tous droits réservés - 2024</p>
-                <a href="https://destreeguillaume-devstree.fr/" target="blank">by DEV_STRÉE</a>
+                <a href="https://destreeguillaume-devstree.fr/" target="blank">Create by DEV_STRÉE</a>
             </div>
         </footer>
     );

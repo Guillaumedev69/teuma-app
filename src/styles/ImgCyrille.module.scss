@@ -1,22 +1,97 @@
-.imgContain {
-  position: relative;
-  display: inline-block; /* Cela permet de maintenir les deux éléments sur la même ligne */
+@media only screen and (max-width: 600px) {
+  .imgContain {
+    position: relative;
+    display: inline-block;
+    .backgroundImg {
+      position: absolute;
+      bottom: 0;
+      width: 16.8125rem;
+      height: 19.75rem;
+      border-radius: 40px;
+      background: #c7e2e9;
+      box-shadow: 1px -6px 10px 1px #c7e2e9;
+      z-index: 1;
+    }
+    .img {
+      position: relative;
+      z-index: 2;
+      right: -16px;
+      bottom: -5px;
+      width: 15.6875rem;
+      height: 22.25rem;
+    }
+  }
 }
-
-.backgroundImg {
-  position: absolute;
-  bottom: 0;
-  width: 29rem;
-  height: 32rem;
-  border-radius: 40px;
-  background: #c7e2e9;
-  box-shadow: 1px -6px 10px 1px #c7e2e9;
-  z-index: 1;
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* Styles pour les petites tablettes */
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .imgContain {
+    position: relative;
+    display: inline-block;
+    .backgroundImg {
+      position: absolute;
+      bottom: 0;
+      width: 16rem;
+      height: 17rem;
+      border-radius: 40px;
+      background: #c7e2e9;
+      box-shadow: 1px -6px 10px 1px #c7e2e9;
+      z-index: 1;
+    }
+    .img {
+      position: relative;
+      z-index: 2;
+      right: -16px;
+      bottom: -5px;
+      width: 18rem;
+      height: 24rem;
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .imgContain {
+    position: relative;
+    display: inline-block;
+  }
 
-.img {
-  position: relative;
-  z-index: 2;
-  right: -50px;
-  bottom: -5px;
+  .backgroundImg {
+    position: absolute;
+    bottom: 0;
+    width: 27rem;
+    height: 30rem;
+    border-radius: 40px;
+    background: #c7e2e9;
+    box-shadow: 1px -6px 10px 1px #c7e2e9;
+    z-index: 1;
+  }
+
+  .img {
+    position: relative;
+    z-index: 2;
+    right: -50px;
+    bottom: -5px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .imgContain {
+    position: relative;
+    display: inline-block;
+    .backgroundImg {
+      position: absolute;
+      bottom: 0;
+      width: 29rem;
+      height: 32rem;
+      border-radius: 40px;
+      background: #c7e2e9;
+      box-shadow: 1px -6px 10px 1px #c7e2e9;
+      z-index: 1;
+    }
+    .img {
+      position: relative;
+      z-index: 2;
+      right: -50px;
+      bottom: -5px;
+    }
+  }
 }
