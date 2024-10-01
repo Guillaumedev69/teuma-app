@@ -14,22 +14,25 @@ export default function Home() {
     return (
         <div className={styles.homePage}>
             <Header />
-            <section className={styles.sectionIntro}>
-                <div className={styles.h1BtnContain}>
-                    <h1 className={styles.titleh1}>
-                        Stratégie<br />
-                        Management<br />
-                        Expertise
-                    </h1>
-                    <BtnContact />
-                </div>
-                <ImgCyrille />
-            </section>
-            <Hexagon />
-            <section className={styles.sectionReview}>
-                <h2>Vos avis sont importants</h2>
-                <ReviewGoogle />
-            </section>
+            <main className={styles.mainHomePage} >
+
+                <section className={styles.sectionIntro}>
+                    <div className={styles.h1BtnContain}>
+                        <h1 className={styles.titleh1}>
+                            Stratégie<br />
+                            Management<br />
+                            Expertise
+                        </h1>
+                        <BtnContact />
+                    </div>
+                    <ImgCyrille />
+                </section>
+                <Hexagon />
+                <section className={styles.sectionReview}>
+                    <h2>Vos avis sont importants</h2>
+                    <ReviewGoogle />
+                </section>
+            </main>
             <Footer />
         </div>
     )

@@ -6,22 +6,29 @@
   .homePage {
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    gap: 4rem;
     width: 100%;
-    .sectionIntro {
+    .mainHomePage {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      gap: 2rem;
-      .h1BtnContain {
+      gap: 4rem;
+      .sectionIntro {
         display: flex;
         flex-direction: column;
         align-items: center;
-        h1 {
-          color: #000;
-          text-align: center;
-          font-family: $font2;
-          font-size: 3rem;
+        gap: 2rem;
+        .h1BtnContain {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.5rem;
+          h1 {
+            margin: 0;
+            color: #000;
+            text-align: center;
+            font-family: $font2;
+            font-size: 3rem;
+          }
         }
       }
     }
