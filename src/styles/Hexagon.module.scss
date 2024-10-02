@@ -187,30 +187,31 @@
     max-height: 1768px;
     .polygonMini1 {
       position: relative;
-      right: 12vw;
+      right: 18vw;
       bottom: 5vh;
     }
 
     .polygonMini1bis {
       position: relative;
-      left: 17vw;
-      bottom: 2vh;
+      left: 34vw;
+      bottom: 8vh;
     }
     .polygonMini2 {
       position: relative;
-      right: 27vw;
+      right: 33vw;
+      bottom: 10vh;
     }
     .polygonMini3 {
       position: relative;
       left: 26vw;
-      bottom: 3vh;
+      bottom: 5vh;
     }
     .polygon1 {
       display: none;
     }
     .hexagoneFirst {
       position: relative;
-      bottom: 14vh;
+      bottom: 46vh;
       z-index: 2;
       display: flex;
       align-items: center;
@@ -231,14 +232,12 @@
       }
     }
     .polygon1bis1 {
-      position: relative;
-      left: 9vw;
-      bottom: 33vh;
+      display: none;
     }
     .polygonMini2bis {
       position: relative;
       right: 34vw;
-      bottom: 73vh;
+      bottom: 53vh;
     }
     .polygon2bis {
       display: none;
@@ -288,70 +287,70 @@
         height: auto;
       }
     }
-  }
-  .polygon3ter {
-    position: relative;
-    display: none;
-  }
-  .polygonMini7 {
-    position: relative;
-    right: 23vw;
-    bottom: 78vh;
-  }
-  .polygonMini8 {
-    position: relative;
-    left: 26vw;
-    bottom: 87vh;
-  }
-  .polygonMini9 {
-    position: relative;
-    right: 6vw;
-    bottom: 95vh;
-  }
-  .polygonMini7bis {
-    position: relative;
-    right: 19vw;
-    bottom: 93vh;
-  }
-  .polygon3bis {
-    position: relative;
-    left: 20vw;
-    bottom: 91vh;
-  }
-  .hexagoneThird {
-    position: relative;
-    bottom: 126vh;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 240px;
-    width: 240px;
-    height: 280px;
-    min-height: 280px;
-    background: #197491;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    .hexagoneThirdP {
-      color: #fff;
-      text-align: center;
-      font-family: $font2;
-      font-size: 1.7rem;
-      width: 18rem;
-      height: auto;
+    .polygon3ter {
+      position: relative;
+      display: none;
     }
-  }
-  .polygon3 {
-    display: none;
-  }
-  .polygonMini9bis {
-    position: relative;
-    right: 15vw;
-    bottom: 126vh;
-  }
-  .polygonMini9ter {
-    position: relative;
-    left: 10vw;
-    bottom: 124vh;
+    .polygonMini7 {
+      position: relative;
+      right: 23vw;
+      bottom: 78vh;
+    }
+    .polygonMini8 {
+      position: relative;
+      left: 26vw;
+      bottom: 87vh;
+    }
+    .polygonMini9 {
+      position: relative;
+      right: 6vw;
+      bottom: 95vh;
+    }
+    .polygonMini7bis {
+      position: relative;
+      right: 19vw;
+      bottom: 93vh;
+    }
+    .polygon3bis {
+      position: relative;
+      left: 20vw;
+      bottom: 91vh;
+    }
+    .hexagoneThird {
+      position: relative;
+      bottom: 126vh;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 240px;
+      width: 240px;
+      height: 280px;
+      min-height: 280px;
+      background: #197491;
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+      .hexagoneThirdP {
+        color: #fff;
+        text-align: center;
+        font-family: $font2;
+        font-size: 1.7rem;
+        width: 18rem;
+        height: auto;
+      }
+    }
+    .polygon3 {
+      display: none;
+    }
+    .polygonMini9bis {
+      position: relative;
+      right: 15vw;
+      bottom: 126vh;
+    }
+    .polygonMini9ter {
+      position: relative;
+      left: 10vw;
+      bottom: 124vh;
+    }
   }
 }
 @media only screen and (max-width: 600px) and (min-height: 700px) {
