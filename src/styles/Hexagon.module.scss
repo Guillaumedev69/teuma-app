@@ -1,5 +1,182 @@
 @import "../Global.module.scss";
 
+@media only screen and (orientation: landscape) {
+  .sectionHexagone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 2230px;
+    max-height: 2230px;
+    .polygonMini1 {
+      position: relative;
+      right: 12vw;
+      bottom: 5vh;
+    }
+
+    .polygonMini1bis {
+      position: relative;
+      left: 17vw;
+      bottom: 2vh;
+    }
+    .polygonMini2 {
+      position: relative;
+      right: 27vw;
+    }
+    .polygonMini3 {
+      position: relative;
+      left: 26vw;
+      bottom: 3vh;
+    }
+    .polygon1 {
+      display: none;
+    }
+    .hexagoneFirst {
+      position: relative;
+      bottom: 14vh;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 260px;
+      min-width: 260px;
+      height: 300px;
+      min-height: 300px;
+      background: #000;
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+      .hexagoneFirstP {
+        color: #fff;
+        text-align: center;
+        font-family: $font2;
+        font-size: 1.45rem;
+        width: 14rem;
+        height: auto;
+      }
+    }
+    .polygon1bis1 {
+      position: relative;
+      left: 9vw;
+      bottom: 33vh;
+    }
+    .polygonMini2bis {
+      position: relative;
+      right: 34vw;
+      bottom: 73vh;
+    }
+    .polygon2bis {
+      display: none;
+    }
+    .polygonMini4 {
+      position: relative;
+      left: 30vw;
+      bottom: 47vh;
+    }
+    .polygonMini5 {
+      position: relative;
+      left: 9vw;
+      bottom: 49vh;
+    }
+    .polygonMini6 {
+      position: relative;
+      bottom: 62vh;
+      right: 26vw;
+    }
+    .polygonMini6bis {
+      position: relative;
+      left: 6vw;
+      bottom: 63vh;
+    }
+    .polygon2 {
+      display: none;
+    }
+    .hexagoneSecond {
+      position: relative;
+      z-index: 2;
+      bottom: 76vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 260px;
+      min-height: 300px;
+      width: 260px;
+      height: 300px;
+      background: #5a8993;
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+      .hexagoneSecondP {
+        color: #fff;
+        text-align: center;
+        font-family: $font2;
+        font-size: 1.45rem;
+        width: 14rem;
+        height: auto;
+      }
+    }
+  }
+  .polygon3ter {
+    position: relative;
+    display: none;
+  }
+  .polygonMini7 {
+    position: relative;
+    right: 23vw;
+    bottom: 78vh;
+  }
+  .polygonMini8 {
+    position: relative;
+    left: 26vw;
+    bottom: 87vh;
+  }
+  .polygonMini9 {
+    position: relative;
+    right: 6vw;
+    bottom: 95vh;
+  }
+  .polygonMini7bis {
+    position: relative;
+    right: 19vw;
+    bottom: 93vh;
+  }
+  .polygon3bis {
+    position: relative;
+    left: 20vw;
+    bottom: 91vh;
+  }
+  .hexagoneThird {
+    position: relative;
+    bottom: 126vh;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 240px;
+    width: 240px;
+    height: 280px;
+    min-height: 280px;
+    background: #197491;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    .hexagoneThirdP {
+      color: #fff;
+      text-align: center;
+      font-family: $font2;
+      font-size: 1.7rem;
+      width: 18rem;
+      height: auto;
+    }
+  }
+  .polygon3 {
+    display: none;
+  }
+  .polygonMini9bis {
+    position: relative;
+    right: 15vw;
+    bottom: 126vh;
+  }
+  .polygonMini9ter {
+    position: relative;
+    left: 10vw;
+    bottom: 124vh;
+  }
+}
 @media only screen and (max-width: 600px) {
   .sectionHexagone {
     display: flex;
@@ -523,7 +700,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 1024px) {
   .sectionHexagone {
     display: flex;
@@ -1132,7 +1308,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 1600px) and (min-height: 1000px) {
   .sectionHexagone {
     display: flex;
