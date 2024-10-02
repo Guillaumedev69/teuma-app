@@ -1,10 +1,16 @@
 
-export default function contact() {
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import styles from "@/styles/Contact.module.scss";
+
+const Contact: React.FC = () => {
     return (
         <div>
-            <h1>contact</h1>
+            <Header />
+            <h1>Contact</h1>
+            <Footer />
         </div>
     );
 };
 
-
+export default Contact;

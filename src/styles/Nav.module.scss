@@ -1,67 +1,5 @@
 @import "../Global.module.scss";
 
-.nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 3rem;
-  font-family: $font1;
-  a {
-    position: relative;
-    font-size: 2rem;
-    color: #fff;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #a7e1fa;
-    top: 1px;
-  }
-
-  .btnMission {
-    position: relative;
-    all: unset;
-    color: #fff;
-    font-size: 2rem;
-    cursor: pointer;
-  }
-
-  .btnMission:hover {
-    position: relative;
-    color: #a7e1fa;
-    top: 1px;
-  }
-  p:hover {
-    top: 1px;
-  }
-
-  .listMission {
-    border: 1px solid red;
-    list-style: none;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    position: absolute;
-    top: 10%;
-    left: 73.3%;
-    z-index: 1000;
-    width: 15rem;
-    background-color: #000;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-    a {
-      font-size: 1.5rem;
-      color: #fff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #a7e1fa;
-    }
-  }
-}
 @media only screen and (max-width: 600px) {
   .nav {
     display: flex;
@@ -127,7 +65,7 @@
     }
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width:768px) {
   .nav {
     display: flex;
     flex-direction: column;
@@ -165,7 +103,6 @@
     }
 
     .listMission {
-      border: 1px solid red;
       list-style: none;
       padding: 1rem;
       display: flex;
@@ -197,12 +134,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
     font-family: $font1;
     text-wrap: nowrap;
     a {
       position: relative;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       color: #fff;
       text-decoration: none;
     }
@@ -216,7 +153,7 @@
       position: relative;
       all: unset;
       color: #fff;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       cursor: pointer;
     }
 
@@ -230,17 +167,17 @@
     }
 
     .listMission {
-      border: 1px solid red;
       list-style: none;
-      padding: 1rem;
+      text-wrap: balance;
+      padding: 1.2rem;
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
       position: absolute;
-      top: 10%;
-      left: 73.3%;
+      top: 9vh;
+      left: 60vw;
       z-index: 1000;
-      width: 15rem;
+      width: 9rem;
       background-color: #000;
       border-radius: 5px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -294,7 +231,6 @@
     }
 
     .listMission {
-      border: 1px solid red;
       list-style: none;
       padding: 1rem;
       display: flex;
@@ -385,10 +321,8 @@
     }
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 899px) {
   .nav {
     display: none;
   }
 }
-
-
