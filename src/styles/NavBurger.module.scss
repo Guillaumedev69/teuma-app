@@ -1,0 +1,229 @@
+@import "../Global.module.scss";
+
+@media only screen and (max-width: 600px) {
+  .navBurger {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .burgerButton {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      z-index: 2000;
+      position: relative;
+      width: 40px;
+      height: 40px;
+    }
+
+    .burgerButton span {
+      position: absolute;
+      width: 40px;
+      height: 5px;
+      background: #a7e1fa;
+      border-radius: 100px;
+      display: inline-block;
+      transition: 0.3s ease;
+      left: 0;
+    }
+
+    .burgerButton .top {
+      top: 0;
+    }
+
+    .burgerButton .middle {
+      top: 17px;
+    }
+
+    .burgerButton .bottom {
+      bottom: 0;
+    }
+
+    .hiddenCheckbox {
+      display: none;
+    }
+
+    .hiddenCheckbox:checked ~ .top {
+      transform: rotate(45deg);
+      transform-origin: top left;
+      width: 48px;
+      left: 5px;
+    }
+
+    .hiddenCheckbox:checked ~ .middle {
+      opacity: 0;
+    }
+
+    .hiddenCheckbox:checked ~ .bottom {
+      transform: rotate(-45deg);
+      transform-origin: top left;
+      width: 48px;
+      bottom: -1px;
+    }
+
+    .menu {
+      position: absolute;
+      top: 75px;
+      right: -3vw;
+      width: 155px;
+      max-width: 155px;
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 0.5rem;
+      z-index: 1000;
+
+      a {
+        font-size: 1.2rem;
+        text-wrap: balance;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #a7e1fa;
+      }
+      .separation {
+        border-top: 2px solid #fff;
+        width: 90%;
+      }
+      .contactLink {
+        color: #a7e1fa;
+        text-decoration: underline;
+      }
+    }
+
+    .burgerButton.isOpen .burgerIcon {
+      background-color: transparent;
+
+      &::before {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+
+      &::after {
+        transform: rotate(-45deg) translate(5px, -5px);
+      }
+    }
+  }
+}
+@media only screen and (min-width: 600px) {
+  @import "../Global.module.scss";
+
+  .navBurger {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .burgerButton {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      z-index: 2000;
+      position: relative;
+      width: 40px;
+      height: 40px;
+    }
+
+    .burgerButton span {
+      position: absolute;
+      width: 40px;
+      height: 5px;
+      background: #a7e1fa;
+      border-radius: 100px;
+      display: inline-block;
+      transition: 0.3s ease;
+      left: 0;
+    }
+
+    .burgerButton .top {
+      top: 0;
+    }
+
+    .burgerButton .middle {
+      top: 17px;
+    }
+
+    .burgerButton .bottom {
+      bottom: 0;
+    }
+
+    .hiddenCheckbox {
+      display: none;
+    }
+
+    .hiddenCheckbox:checked ~ .top {
+      transform: rotate(45deg);
+      transform-origin: top left;
+      width: 48px;
+      left: 5px;
+    }
+
+    .hiddenCheckbox:checked ~ .middle {
+      opacity: 0;
+    }
+
+    .hiddenCheckbox:checked ~ .bottom {
+      transform: rotate(-45deg);
+      transform-origin: top left;
+      width: 48px;
+      bottom: -1px;
+    }
+
+    .menu {
+      position: absolute;
+      top: 86px;
+      right: -1vw;
+      width: 155px;
+      max-width: 155px;
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 0.5rem;
+      z-index: 1000;
+
+      a {
+        font-size: 1.2rem;
+        text-wrap: balance;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #a7e1fa;
+      }
+      .separation {
+        border-top: 2px solid #fff;
+        width: 90%;
+      }
+      .contactLink {
+        color: #a7e1fa;
+        text-decoration: underline;
+      }
+    }
+
+    .burgerButton.isOpen .burgerIcon {
+      background-color: transparent;
+
+      &::before {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+
+      &::after {
+        transform: rotate(-45deg) translate(5px, -5px);
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .navBurger {
+    display: none;
+  }
+}

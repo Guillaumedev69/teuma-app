@@ -128,7 +128,69 @@
   }
 }
 @media only screen and (min-width: 600px) {
-  /* Styles pour les petites tablettes */
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    font-family: $font1;
+    text-wrap: nowrap;
+    a {
+      position: relative;
+      font-size: 1.2rem;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #a7e1fa;
+      top: 1px;
+    }
+
+    .btnMission {
+      position: relative;
+      all: unset;
+      color: #fff;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    .btnMission:hover {
+      position: relative;
+      color: #a7e1fa;
+      top: 1px;
+    }
+    p:hover {
+      top: 1px;
+    }
+
+    .listMission {
+      border: 1px solid red;
+      list-style: none;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      position: absolute;
+      top: 10%;
+      left: 73.3%;
+      z-index: 1000;
+      width: 15rem;
+      background-color: #000;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+      a {
+        font-size: 1.2rem;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #a7e1fa;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 768px) {
   .nav {
@@ -323,3 +385,10 @@
     }
   }
 }
+@media (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+}
+
+
