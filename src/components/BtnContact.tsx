@@ -19,7 +19,7 @@ const BtnContact = () => {
             </button>)}
             {isBulleVisible && (<div className={styles.bulleContact}>
                 <a href="mailto:cyrille.teuma.pro@gmail.com"><ImgMail2 /></a>
-                <a href="tel:0788235392"><ImgCall2 /></a>
+                <a href="tel:0669671408"><ImgCall2 /></a>
                 <button onClick={handleButtonClick}><ImgClose /></button>
             </div>)}
         </div>
