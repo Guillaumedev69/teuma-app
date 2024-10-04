@@ -37,15 +37,13 @@ const Footer = () => {
                     <Link href="/about">À propos</Link>
                     <Link href="/review">Avis</Link>
                     <Link href="/legalnotices">Mention Légales</Link>
-                </div>
-                <div className={styles.contactContainer}>
                     <Link href="/contact">Contactez-nous</Link>
-                    <div className={styles.linkContactContainer}>
+                </div>
+                <div className={styles.linkContactContainer}>
 
-                        <a href="https://www.linkedin.com/in/cyrille-teuma-856a4a152/" target="blank"><ImgLogoLinkedin /></a>
-                        <a href="tel:0788235392"><ImgCall /></a>
-                        <a href="mailto:cyrille.teuma.pro@gmail.com"><ImgMail /></a>
-                    </div>
+                    <a href="https://www.linkedin.com/in/cyrille-teuma-856a4a152/" target="blank"><ImgLogoLinkedin /></a>
+                    <a href="tel:0788235392"><ImgCall /></a>
+                    <a href="mailto:cyrille.teuma.pro@gmail.com"><ImgMail /></a>
                 </div>
             </div>
             <div className={styles.footerSecond}>
