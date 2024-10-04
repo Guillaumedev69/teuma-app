@@ -19,48 +19,61 @@ import PolygonMini9 from "@/images/PolygonMini9.webp"
 const Hexagon = () => {
     return (
         <section className={styles.sectionHexagone}>
-            <Image src={PolygonMini1} alt="hexagone" className={styles.polygonMini1} />
-            <Image src={PolygonMini1} alt="hexagone" className={styles.polygonMini1bis} />
-            <Image src={PolygonMini2} alt="hexagone" className={styles.polygonMini2} />
-            <Image src={PolygonMini3} alt="hexagone" className={styles.polygonMini3} />
             <Image src={Polygon1} alt="hexagone" className={styles.polygon1} />
-            <div className={styles.hexagoneFirst}>
-                <p className={styles.hexagoneFirstP}>À la recherche de solutions ponctuelles ou durables
-                    pour gérer et développer votre entreprise ?
-                </p>
+            <div className={styles.line1}>
+                <Image src={PolygonMini1} alt="hexagone" className={styles.polygonMini1} />
+                <Image src={PolygonMini1} alt="hexagone" className={styles.polygonMini1bis} />
             </div>
-            <Image src={Polygon1bis} alt="hexagone" className={styles.polygon1bis1} />
-            <Image src={PolygonMini2} alt="hexagone" className={styles.polygonMini2bis} />
-            <Image src={Polygon2bis} alt="hexagone" className={styles.polygon2bis} />
-            <Image src={PolygonMini4} alt="hexagone" className={styles.polygonMini4} />
-            <Image src={PolygonMini5} alt="hexagone" className={styles.polygonMini5} />
-            <Image src={PolygonMini6} alt="hexagone" className={styles.polygonMini6} />
-            <Image src={PolygonMini6} alt="hexagone" className={styles.polygonMini6bis} />
-            <Image src={Polygon2} alt="hexagone" className={styles.polygon2} />
-            <div className={styles.hexagoneSecond}>
-                <p className={styles.hexagoneSecondP}>ACCOMPAGNEMENT
-                    DES DIRIGEANTS
-                    dans leur stratégie
-                    tactique et
-                    operationnelle
-                </p>
+            <div className={styles.line2}>
+                <Image src={PolygonMini2} alt="hexagone" className={styles.polygonMini2} />
+                <div className={styles.hexagoneFirst}>
+                    <p className={styles.hexagoneFirstP}>À la recherche de solutions ponctuelles ou durables
+                        pour gérer et développer votre entreprise ?
+                    </p>
+                </div>
+                <Image src={PolygonMini3} alt="hexagone" className={styles.polygonMini3} />
             </div>
-            <Image src={Polygon3bis} alt="hexagone" className={styles.polygon3ter} />
-            <Image src={PolygonMini7} alt="hexagone" className={styles.polygonMini7} />
-            <Image src={PolygonMini8} alt="hexagone" className={styles.polygonMini8} />
-            <Image src={PolygonMini9} alt="hexagone" className={styles.polygonMini9} />
-            <Image src={PolygonMini7} alt="hexagone" className={styles.polygonMini7bis} />
-            <Image src={Polygon3bis} alt="hexagone" className={styles.polygon3bis} />
-            <div className={styles.hexagoneThird}>
-                <p className={styles.hexagoneThirdP}>CADRE
-                    EXTERNALISÉ
-                    au servide
-                    des TPE et PME
-                </p>
+            <div className={styles.line3}>
+                <Image src={Polygon1bis} alt="hexagone" className={styles.polygon1bis1} />
+                <Image src={PolygonMini2} alt="hexagone" className={styles.polygonMini2bis} />
+                <Image src={PolygonMini4} alt="hexagone" className={styles.polygonMini4} />
+                <Image src={PolygonMini5} alt="hexagone" className={styles.polygonMini5} />
             </div>
-            <Image src={Polygon3} alt="hexagone" className={styles.polygon3} />
-            <Image src={PolygonMini9} alt="hexagone" className={styles.polygonMini9bis} />
-            <Image src={PolygonMini9} alt="hexagone" className={styles.polygonMini9ter} />
+            <div className={styles.line4}>
+                <Image src={Polygon2} alt="hexagone" className={styles.polygon2} />
+                <Image src={Polygon2bis} alt="hexagone" className={styles.polygon2bis} />
+                <Image src={PolygonMini6} alt="hexagone" className={styles.polygonMini6} />
+                <div className={styles.hexagoneSecond}>
+                    <p className={styles.hexagoneSecondP}>ACCOMPAGNEMENT
+                        DES DIRIGEANTS
+                        dans leur stratégie
+                        tactique et
+                        operationnelle
+                    </p>
+                </div>
+                <Image src={PolygonMini6} alt="hexagone" className={styles.polygonMini6bis} />
+            </div>
+            <div className={styles.line5}>
+                <Image src={PolygonMini5} alt="hexagone" className={styles.polygonMini5bis} />
+                <Image src={Polygon3bis} alt="hexagone" className={styles.polygon3ter} />
+                <Image src={PolygonMini7} alt="hexagone" className={styles.polygonMini7bis} />
+                <Image src={Polygon3} alt="hexagone" className={styles.polygon3} />
+                <Image src={Polygon3bis} alt="hexagone" className={styles.polygon3bis} />
+                <Image src={PolygonMini9} alt="hexagone" className={styles.polygonMini9} />
+                <Image src={PolygonMini9} alt="hexagone" className={styles.polygonMini9bis} />
+                <Image src={PolygonMini7} alt="hexagone" className={styles.polygonMini7} />
+            </div>
+            <div className={styles.line6}>
+                <div className={styles.hexagoneThird}>
+                    <p className={styles.hexagoneThirdP}>CADRE
+                        EXTERNALISÉ
+                        au servide
+                        des TPE et PME
+                    </p>
+                </div>
+                <Image src={PolygonMini8} alt="hexagone" className={styles.polygonMini8} />
+                <Image src={PolygonMini9} alt="hexagone" className={styles.polygonMini9ter} />
+            </div>
         </section>
 
     );

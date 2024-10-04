@@ -182,36 +182,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    min-height: 1768px;
-    max-height: 1768px;
-    .polygonMini1 {
-      position: relative;
-      right: 18vw;
-      bottom: 5vh;
+    max-height: 1400px;
+    min-height: 1400px;
+    .line1 {
+      display: flex;
+      flex-direction: row;
+      .polygonMini1 {
+        position: relative;
+        right: 12vw;
+        bottom: 5vh;
+      }
+      .polygonMini1bis {
+        position: relative;
+        left: 12vw;
+        top: 2vh;
+      }
     }
-
-    .polygonMini1bis {
-      position: relative;
-      left: 34vw;
-      bottom: 8vh;
-    }
-    .polygonMini2 {
-      position: relative;
-      right: 33vw;
-      bottom: 10vh;
-    }
-    .polygonMini3 {
-      position: relative;
-      left: 26vw;
-      bottom: 5vh;
-    }
-    .polygon1 {
-      display: none;
+    .line2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .polygonMini2 {
+        position: relative;
+        right: 32vw;
+        bottom: 5vh;
+      }
     }
     .hexagoneFirst {
       position: relative;
-      bottom: 46vh;
+      bottom: 11vh;
       z-index: 2;
       display: flex;
       align-items: center;
@@ -231,44 +230,46 @@
         height: auto;
       }
     }
-    .polygon1bis1 {
-      display: none;
+    .polygonMini3 {
+      position: relative;
+      left: 27vw;
+      bottom: 46vh;
     }
+  }
+  .line3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     .polygonMini2bis {
       position: relative;
-      right: 34vw;
-      bottom: 53vh;
-    }
-    .polygon2bis {
-      display: none;
+      left: 39vw;
+      bottom: 31vh;
     }
     .polygonMini4 {
       position: relative;
-      left: 30vw;
-      bottom: 47vh;
+      right: 41vw;
+      bottom: 24vh;
     }
     .polygonMini5 {
       position: relative;
-      left: 9vw;
-      bottom: 49vh;
+      right: 50vw;
+      bottom: 36vh;
     }
+  }
+  .line4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .polygonMini6 {
       position: relative;
-      bottom: 62vh;
-      right: 26vw;
+      left: 28vw;
+      bottom: 13vh;
     }
-    .polygonMini6bis {
-      position: relative;
-      left: 6vw;
-      bottom: 63vh;
-    }
-    .polygon2 {
-      display: none;
-    }
+
     .hexagoneSecond {
       position: relative;
       z-index: 2;
-      bottom: 76vh;
+      bottom: 49vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -287,38 +288,43 @@
         height: auto;
       }
     }
-    .polygon3ter {
+    .polygonMini6bis {
       position: relative;
-      display: none;
+      left: 13vw;
+      bottom: 86vh;
     }
-    .polygonMini7 {
+  }
+  .line5 {
+    display: flex;
+    flex-direction: row;
+    .polygonMini5bis {
       position: relative;
-      right: 23vw;
-      bottom: 78vh;
-    }
-    .polygonMini8 {
-      position: relative;
-      left: 26vw;
-      bottom: 87vh;
+      right: 1vw;
+      bottom: 72vh;
     }
     .polygonMini9 {
       position: relative;
-      right: 6vw;
-      bottom: 95vh;
+      right: 1vw;
+      bottom: 61vh;
     }
-    .polygonMini7bis {
+    .polygonMini9bis {
       position: relative;
-      right: 19vw;
-      bottom: 93vh;
+      left: 15vw;
+      bottom: 68vh;
     }
-    .polygon3bis {
+    .polygonMini7 {
       position: relative;
-      left: 20vw;
-      bottom: 91vh;
+      left: 7vw;
+      bottom: 58vh;
     }
+  }
+  .line6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .hexagoneThird {
       position: relative;
-      bottom: 126vh;
+      bottom: 75vh;
       z-index: 2;
       display: flex;
       align-items: center;
@@ -338,28 +344,44 @@
         height: auto;
       }
     }
-    .polygon3 {
-      display: none;
-    }
-    .polygonMini9bis {
+    .polygonMini8 {
       position: relative;
-      right: 15vw;
-      bottom: 126vh;
+      right: 18vw;
+      bottom: 78vh;
     }
     .polygonMini9ter {
       position: relative;
-      left: 10vw;
-      bottom: 124vh;
+      left: 25vw;
+      bottom: 94vh;
     }
+  }
+  .polygon1 {
+    display: none;
+  }
+  .polygon1bis1 {
+    display: none;
+  }
+  .polygon2 {
+    display: none;
+  }
+  .polygon2bis {
+    display: none;
+  }
+  .polygon3ter {
+    display: none;
+  }
+  .polygonMini7bis {
+    display: none;
+  }
+  .polygon3 {
+    display: none;
+  }
+  .polygon3bis {
+    display: none;
   }
 }
+
 @media only screen and (max-width: 600px) and (min-height: 700px) {
-  .sectionHexagone {
-    .polygonMini2bis {
-      position: relative;
-      bottom: 78vh;
-    }
-  }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .sectionHexagone {
