@@ -266,7 +266,7 @@
     .polygonMini3 {
       position: relative;
       left: 27vw;
-      bottom: 46vh;
+      bottom: 48vh;
     }
   }
   .line3 {
@@ -307,8 +307,8 @@
     align-items: center;
     .polygonMini6 {
       position: relative;
-      left: 28vw;
-      bottom: 13vh;
+      right: 8vw;
+      bottom: 7vh;
     }
 
     .hexagoneSecond {
@@ -335,8 +335,8 @@
     }
     .polygonMini6bis {
       position: relative;
-      left: 13vw;
-      bottom: 86vh;
+      left: 26vw;
+      bottom: 83vh;
     }
   }
   .line5 {
@@ -345,7 +345,7 @@
     .polygonMini5bis {
       position: relative;
       right: 1vw;
-      bottom: 72vh;
+      bottom: 64vh;
       background: #5a8993;
       clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
       width: 45px;
@@ -354,12 +354,16 @@
     .polygonMini9 {
       position: relative;
       right: 1vw;
-      bottom: 59vh;
+      bottom: 26vh;
+      background: #197491;
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+      width: 45px;
+      height: 50px;
     }
     .polygonMini9bis {
       position: relative;
       left: 15vw;
-      bottom: 68vh;
+      bottom: 62vh;
       background: #197491;
       clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
       width: 45px;
@@ -368,7 +372,7 @@
     .polygonMini7 {
       position: relative;
       left: 7vw;
-      bottom: 58vh;
+      bottom: 38vh;
     }
   }
   .line6 {

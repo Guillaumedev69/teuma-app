@@ -14,7 +14,7 @@ import PolygonMini3 from "@/images/PolygonMini3.webp"
 import PolygonMini6 from "@/images/PolygonMini6.webp"
 import PolygonMini7 from "@/images/PolygonMini7.webp"
 /*import PolygonMini8 from "@/images/PolygonMini8.webp"*/
-import PolygonMini9 from "@/images/PolygonMini9.webp"
+/*import PolygonMini9 from "@/images/PolygonMini9.webp"*/
 
 const Hexagon = () => {
     return (
@@ -59,7 +59,7 @@ const Hexagon = () => {
                 <Image src={PolygonMini7} alt="hexagone" className={styles.polygonMini7bis} />
                 <Image src={Polygon3} alt="hexagone" className={styles.polygon3} />
                 <Image src={Polygon3bis} alt="hexagone" className={styles.polygon3bis} />
-                <Image src={PolygonMini9} alt="hexagone" className={styles.polygonMini9} />
+                <div className={styles.polygonMini9}></div>
                 <div className={styles.polygonMini9bis}></div>
                 <Image src={PolygonMini7} alt="hexagone" className={styles.polygonMini7} />
                 
