@@ -23,7 +23,7 @@
     }
   }
 }
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   .imgContain {
     position: relative;
     display: inline-block;
@@ -46,7 +46,8 @@
       width: 15.6875rem;
       height: 22.25rem;
     }
-  }}
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .imgContain {
     position: relative;
@@ -64,8 +65,8 @@
     .img {
       position: relative;
       z-index: 2;
-      right: -16px;
-      bottom: -5px;
+      left: 4px;
+      top: 4px;
       width: 18rem;
       height: 24rem;
     }
