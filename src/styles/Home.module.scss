@@ -2,65 +2,100 @@
 .sectionReview {
   display: none;
 }
-
-@media only screen and (min-width: 768px){.homePage {
-  display: flex;
-  flex-direction: column;
-  gap: 6rem;
-  .mainHomePage {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .homePage {
+    border: 1px solid #000;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    .sectionIntro {
+    gap: 6rem;
+    .mainHomePage {
       display: flex;
-      flex-direction: row;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      gap: 6vw;
-      .h1BtnContain {
+      gap: 3rem;
+      .sectionIntro {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
-        h1 {
-          color: #000;
-          text-align: center;
-          font-family: $font2;
-          font-size: 2.5rem;
+        gap: 6vw;
+        .h1BtnContain {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h1 {
+            color: #000;
+            text-align: center;
+            font-family: $font2;
+            font-size: 2.5rem;
+          }
         }
       }
     }
   }
-}}
-@media only screen and (min-width: 1024px){.homePage {
-  display: flex;
-  flex-direction: column;
-  gap: 6rem;
-  .mainHomePage {
+}
+@media only screen and (min-width: 768px) {
+  .homePage {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    .sectionIntro {
+    gap: 6rem;
+    .mainHomePage {
       display: flex;
-      flex-direction: row;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      gap: 14vw;
-      .h1BtnContain {
+      gap: 3rem;
+      .sectionIntro {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
-        h1 {
-          color: #000;
-          text-align: center;
-          font-family: $font2;
-          font-size: 4rem;
+        gap: 6vw;
+        .h1BtnContain {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h1 {
+            color: #000;
+            text-align: center;
+            font-family: $font2;
+            font-size: 2.5rem;
+          }
         }
       }
     }
   }
-}}
+}
+@media only screen and (min-width: 1024px) {
+  .homePage {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    .mainHomePage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      .sectionIntro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 14vw;
+        .h1BtnContain {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h1 {
+            color: #000;
+            text-align: center;
+            font-family: $font2;
+            font-size: 4rem;
+          }
+        }
+      }
+    }
+  }
+}
 @media only screen and (min-width: 2034px) {
   .homePage {
     display: flex;
