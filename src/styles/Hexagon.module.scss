@@ -1,13 +1,13 @@
 @import "../Global.module.scss";
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px) {
   .sectionHexagon {
     position: relative;
     z-index: 0;
-    min-height: 1000px;
+    min-height: 815px;
     max-height: 1000px;
     max-width: 600px;
-    min-width: 100%;
+    min-width: 320px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -30,31 +30,31 @@
         }
         .polygonMini1 {
           position: relative;
-          right: 0vw;
-          bottom: 0vh;
+          left: 1%;
+          bottom: 23%;
         }
         .polygonMini1bis {
           position: relative;
-          right: 0vw;
-          bottom: 0vh;
+          left: 70%;
+          bottom: 6%;
         }
         .polygonMini2 {
           position: relative;
-          right: 0vw;
-          bottom: 0vh;
+          right: 12%;
+          bottom: 0%;
         }
         .polygonMini3 {
           position: relative;
-          right: 0vw;
-          bottom: 0vh;
+          right: 2%;
+          top: 90%;
         }
         .polygon1bis1 {
           display: none;
         }
         .polygonMini2bis {
           position: relative;
-          right: 25vw;
-          bottom: 0vh;
+          right: 94%;
+          top: 87%;
         }
       }
       .backgroundLine2 {
@@ -63,13 +63,13 @@
         flex-wrap: nowrap;
         .polygonMini4 {
           position: relative;
-          right: 0vw;
-          bottom: 0vh;
+          left: 8%;
+          bottom: 87%;
         }
         .polygonMini5 {
           position: relative;
-          right: 0vw;
-          bottom: 16vh;;
+          right: 26%;
+          bottom: -109%;
         }
         .polygon2 {
           display: none;
@@ -79,18 +79,18 @@
         }
         .polygonMini6 {
           position: relative;
-          right: 0vw;
-          bottom: -6vh;
+          right: 20%;
+          top: 74%;
         }
         .polygonMini6bis {
           position: relative;
-          right: 24vw;
-        bottom: 16vh;
+          right: 25%;
+          bottom: 2%;
         }
         .polygonMini5bis {
           position: relative;
-          right: 37vw;
-          bottom: 0vh;
+          right: 47%;
+          bottom: 58%;
         }
       }
       .backgroundLine3 {
@@ -108,33 +108,33 @@
         }
         .polygonMini7bis {
           position: relative;
-          right: 0vw;
-          bottom: 0vh;
+          left: 66%;
+          bottom: 146%;
         }
         .polygonMini9 {
           position: relative;
-          right: 0vw;
-          bottom: -17vh;
+          right: 18%;
+          bottom: 106%;
         }
         .polygonMini9bis {
           position: relative;
-          right: 0vw;
-          bottom: -15vh;
+          right: 24%;
+          top: 87%;
         }
         .polygonMini7 {
           position: relative;
-          right: 0vw;
-          bottom: 0vh;
+          right: 59%;
+          bottom: 0%;
         }
         .polygonMini8 {
           position: relative;
-          right: 43vw;
-        bottom: -18vh;
+          right: 36%;
+          top: 11%;
         }
         .polygonMini9ter {
           position: relative;
-          right: 52vw;
-          bottom: 6vh;
+          right: 55%;
+          bottom: 63%;
         }
       }
     }
@@ -245,7 +245,7 @@
     min-height: 1250px;
     max-height: 1250px;
     max-width: 768px;
-    min-width: 100%;
+    min-width: 600px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -268,33 +268,33 @@
         }
         .polygonMini1 {
           position: relative;
-          left: 19vw;
-          bottom: 3vh;
+          left: 19%;
+          bottom: 11%;
         }
         .polygonMini1bis {
           position: relative;
-          left: 81vw;
-          top: 7vh;
+          left: 83%;
+          top: 31%;
         }
         .polygonMini2 {
           position: relative;
-          right: 9vw;
-          top: 14vh;
+          right: 10%;
+          top: 56%;
         }
         .polygonMini3 {
           position: relative;
-          right: 8vw;
-          top: 26vh;
+          right: 9%;
+          top: 101%;
         }
         .polygon1bis1 {
           position: relative;
-          left: 5vw;
-          top: 1vh;
+          left: 3%;
+          top: 0%;
         }
         .polygonMini2bis {
           position: relative;
-          right: 0vw;
-          top: 29vh;
+          right: 0%;
+          top: 130%;
         }
       }
       .backgroundLine2 {
@@ -303,36 +303,36 @@
         flex-wrap: nowrap;
         .polygonMini4 {
           position: relative;
-          left: 5vw;
-          top: 20vh;
+          left: 5%;
+          top: 70%;
         }
         .polygonMini5 {
           position: relative;
-          left: 14vw;
-          top: 31vh;
+          left: 16%;
+          top: 127%;
         }
         .polygon2 {
           display: none;
         }
         .polygon2bis {
           position: relative;
-          right: 6vw;
-          bottom: 7vh;
+          right: 6%;
+          bottom: 26%;
         }
         .polygonMini6 {
           position: relative;
-          left: 14vw;
-          top: 25vh;
+          left: 21%;
+          top: 96%;
         }
         .polygonMini6bis {
           position: relative;
-          right: 3vw;
-          bottom: 11vh;
+          right: 11%;
+          bottom: 41%;
         }
         .polygonMini5bis {
           position: relative;
-          right: 9vw;
-          top: 10vh;
+          right: 9%;
+          top: 46%;
         }
       }
       .backgroundLine3 {
@@ -341,46 +341,46 @@
         flex-wrap: nowrap;
         .polygon3ter {
           position: relative;
-          left: 21vw;
+          left: 19%;
           top: 0vh;
         }
         .polygonMini7bis {
           position: relative;
-          right: 20vw;
-          bottom: 21vh;
+          right: 20%;
+          bottom: 86%;
         }
         .polygon3 {
           display: none;
         }
         .polygon3bis {
           position: relative;
-          left: 18vw;
-          top: 22vh;
+          left: 22%;
+          top: 84%;
         }
         .polygonMini9 {
           position: relative;
-          left: 13vw;
-          top: 7vh;
+          left: 13%;
+          top: 41%;
         }
         .polygonMini9bis {
           position: relative;
-          right: 75vw;
-          top: 0vh;
+          right: 82%;
+          top: 0%;
         }
         .polygonMini7 {
           position: relative;
-          right: 22vw;
-          bottom: 11vh;
+          right: 26%;
+          bottom: 54%;
         }
         .polygonMini8 {
           position: relative;
-          right: 101vw;
-          top: 21vh;
+          right: 105%;
+          top: 107%;
         }
         .polygonMini9ter {
           position: relative;
-          right: 90vw;
-          top: 41vh;
+          right: 90%;
+          top: 128%;
         }
       }
     }
@@ -484,216 +484,7 @@
     }
   }
 }
-@media only screen and (min-width: 638px) and (max-width: 767px) {
-  .sectionHexagon {
-    &__background {
-      .backgroundLine2 {
-        .polygonMini6 {
-          position: relative;
-          left: 12vw;
-          top: 20vh;
-        }
-        .polygonMini6bis {
-          position: relative;
-          left: 6vw;
-          bottom: 13vh;
-        }
-      }
-      .backgroundLine3 {
-        .polygonMini8 {
-          position: relative;
-          right: 94vw;
-          top: 21vh;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 661px) and (max-width: 767px) {
-  .sectionHexagon {
-    &__background {
-      .backgroundLine2 {
-        .polygonMini6 {
-          position: relative;
-          left: 18vw;
-          top: 20vh;
-        }
-      }
-      .backgroundLine3 {
-        .polygonMini9bis {
-          position: relative;
-          right: 70vw;
-          top: 0vh;
-        }
-        .polygonMini7 {
-          position: relative;
-          right: 17vw;
-          bottom: 14vh;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 686px) and (max-width: 767px) {
-  .sectionHexagon {
-    &__background {
-      .backgroundLine1 {
-        .polygonMini3 {
-          position: relative;
-          right: 0vw;
-          top: 26vh;
-        }
-        .polygonMini2bis {
-          position: relative;
-          left: 11vw;
-          top: 29vh;
-        }
-      }
-      .backgroundLine2 {
-        .polygonMini4 {
-          position: relative;
-          left: 11vw;
-          top: 20vh;
-        }
-        .polygonMini5 {
-          position: relative;
-          left: 20vw;
-          top: 33vh;
-        }
-        .polygon2bis {
-          position: relative;
-          right: 2vw;
-          bottom: 7vh;
-        }
-        .polygonMini6 {
-          position: relative;
-          left: 20vw;
-          top: 17vh;
-        }
-        .polygonMini6bis {
-          position: relative;
-          left: 10vw;
-          bottom: 13vh;
-        }
-        .polygonMini5bis {
-          position: relative;
-          left: 2vw;
-          top: 10vh;
-        }
-      }
-      .backgroundLine3 {
-        .polygonMini7bis {
-          position: relative;
-          right: 12vw;
-          bottom: 21vh;
-        }
-        .polygon3bis {
-          position: relative;
-          left: 27vw;
-          top: 22vh;
-        }
-        .polygonMini9bis {
-          position: relative;
-          right: 64vw;
-          top: 0vh;
-        }
-        .polygonMini8 {
-          position: relative;
-          right: 84vw;
-          top: 23vh;
-        }
-        .polygonMini9ter {
-          position: relative;
-          right: 84vw;
-          top: 41vh;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 713px) and (max-width: 767px) {
-  .sectionHexagon {
-    &__background {
-      .backgroundLine1 {
-        .polygon1bis1 {
-          position: relative;
-          left: 9vw;
-          top: 1vh;
-        }
-      }
-      .backgroundLine3 {
-        .polygonMini7 {
-          position: relative;
-          right: 14vw;
-          bottom: 14vh;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 753px) and (max-width: 767px) {
-  .sectionHexagon {
-    &__background {
-      .backgroundLine1 {
-        .polygon1bis1 {
-          position: relative;
-          left: 13vw;
-          top: 1vh;
-        }
-        .polygonMini2 {
-          position: relative;
-          right: 5vw;
-          top: 14vh;
-        }
-      }
-      .backgroundLine2 {
-        .polygon2bis {
-          position: relative;
-          left: 1vw;
-          bottom: 7vh;
-        }
-        .polygonMini4 {
-          position: relative;
-          left: 9vw;
-          top: 20vh;
-        }
-        .polygonMini6bis {
-          position: relative;
-          left: 18vw;
-          bottom: 13vh;
-        }
-      }
-      .backgroundLine3 {
-        .polygonMini7 {
-          position: relative;
-          right: 10vw;
-          bottom: 14vh;
-        }
-        .polygonMini8 {
-          position: relative;
-          right: 78vw;
-          top: 23vh;
-        }
-        .polygonMini9 {
-          position: relative;
-          left: 23vw;
-          top: 7vh;
-        }
-        .polygonMini9bis {
-          position: relative;
-          right: 59vw;
-          top: 0vh;
-        }
-        .polygonMini9ter {
-          position: relative;
-          right: 70vw;
-          top: 41vh;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 880px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .sectionHexagon {
     position: relative;
     z-index: 0;
@@ -720,8 +511,8 @@
         flex-wrap: nowrap;
         .polygon1 {
           position: relative;
-          bottom: 2vh;
-          left: 12vw;
+          bottom: 6%;
+          left: 10%;
           width: 340px;
           min-width: 340px;
           height: 400px;
@@ -737,12 +528,12 @@
         }
         .polygonMini2 {
           position: relative;
-          left: 20vw;
+          left: 21%;
         }
         .polygonMini3 {
           position: relative;
-          top: 16vh;
-          left: 20vw;
+          top: 37%;
+          left: 19%;
         }
         .polygon1bis1 {
           display: none;
@@ -757,15 +548,16 @@
         flex-wrap: nowrap;
         .polygonMini4 {
           position: relative;
-          left: 5vw;
+          bottom: 12%;
+          left: 9%;
         }
         .polygonMini5 {
           display: none;
         }
         .polygon2 {
           position: relative;
-          left: 42vw;
-          bottom: 6vh;
+          left: 43%;
+          bottom: 5%;
           width: 340px;
           min-width: 340px;
           height: 400px;
@@ -773,8 +565,8 @@
         }
         .polygon2bis {
           position: relative;
-          right: 37vw;
-          top: 6vh;
+          right: 33%;
+          top: 23%;
         }
         .polygonMini6 {
           display: none;
@@ -792,16 +584,16 @@
         flex-wrap: nowrap;
         .polygon3ter {
           position: relative;
-          right: -5vw;
-          bottom: 19vh;
+          left: 5%;
+          bottom: 30%;
         }
         .polygonMini7bis {
           display: none;
         }
         .polygon3 {
           position: relative;
-          bottom: -5vh;
-          left: 2vw;
+          top: 11%;
+          left: 1%;
           width: 340px;
           min-width: 340px;
           height: 400px;
@@ -809,8 +601,8 @@
         }
         .polygon3bis {
           position: relative;
-          left: 6vw;
-          top: 2vh;
+          left: 8%;
+          top: 7%;
         }
         .polygonMini9 {
           display: none;
@@ -820,8 +612,8 @@
         }
         .polygonMini7 {
           position: relative;
-          right: 15vw;
-          top: 35vh;
+          right: 5%;
+          top: 77%;
         }
         .polygonMini8 {
           display: none;
@@ -845,7 +637,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        right: 3vw;
+        right: 5%;
         width: 340px;
         min-width: 340px;
         height: 400px;
@@ -873,7 +665,8 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        left: 22vw;
+        left: 23%;
+        top: 2%;
         width: 340px;
         min-width: 340px;
         height: 400px;
@@ -901,477 +694,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        right: 6vw;
-        width: 340px;
-        min-width: 340px;
-        height: 400px;
-        min-height: 400px;
-        background: #197491;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonThirdP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 1.75rem;
-          width: 18rem;
-          height: auto;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 881px) and (max-width: 989px) {
-  .sectionHexagon {
-    position: relative;
-    z-index: 0;
-    min-height: 1250px;
-    max-height: 1250px;
-    max-width: 768px;
-    min-width: 768px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    &__background {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      .backgroundLine1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygon1 {
-          position: relative;
-          bottom: 2vh;
-          left: 12vw;
-          width: 340px;
-          min-width: 340px;
-          height: 400px;
-          min-height: 400px;
-        }
-        .polygonMini1 {
-          display: none;
-        }
-        .polygonMini1bis {
-          position: relative;
-          right: 61vw;
-          top: 5vh;
-        }
-        .polygonMini2 {
-          position: relative;
-          left: 20vw;
-        }
-        .polygonMini3 {
-          position: relative;
-          top: 16vh;
-          left: 20vw;
-        }
-        .polygon1bis1 {
-          display: none;
-        }
-        .polygonMini2bis {
-          display: none;
-        }
-      }
-      .backgroundLine2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygonMini4 {
-          position: relative;
-          bottom: 9vh;
-          left: 5vw;
-        }
-        .polygonMini5 {
-          display: none;
-        }
-        .polygon2 {
-          position: relative;
-          left: 38vw;
-          bottom: 4vh;
-          width: 340px;
-          min-width: 340px;
-          height: 400px;
-          min-height: 400px;
-        }
-        .polygon2bis {
-          position: relative;
-          right: 30vw;
-          top: 3vh;
-        }
-        .polygonMini6 {
-          display: none;
-        }
-        .polygonMini6bis {
-          display: none;
-        }
-        .polygonMini5bis {
-          display: none;
-        }
-      }
-      .backgroundLine3 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygon3ter {
-          position: relative;
-          right: -5vw;
-          bottom: 19vh;
-        }
-        .polygonMini7bis {
-          display: none;
-        }
-        .polygon3 {
-          position: relative;
-          bottom: -5vh;
-          left: 2vw;
-          width: 340px;
-          min-width: 340px;
-          height: 400px;
-          min-height: 400px;
-        }
-        .polygon3bis {
-          position: relative;
-          left: 6vw;
-          top: 2vh;
-        }
-        .polygonMini9 {
-          display: none;
-        }
-        .polygonMini9bis {
-          display: none;
-        }
-        .polygonMini7 {
-          position: relative;
-          right: 15vw;
-          top: 35vh;
-        }
-        .polygonMini8 {
-          display: none;
-        }
-        .polygonMini9ter {
-          display: none;
-        }
-      }
-    }
-    &__content {
-      position: relative;
-      z-index: 3;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      padding: 0;
-      margin: 0;
-      .hexagonFirst {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 3vw;
-        width: 340px;
-        min-width: 340px;
-        height: 400px;
-        min-height: 400px;
-        background: #000;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonFirstP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 1.75rem;
-          width: 18rem;
-          height: auto;
-        }
-      }
-      .hexagonSecond {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: 22vw;
-        width: 340px;
-        min-width: 340px;
-        height: 400px;
-        min-height: 400px;
-        background: #5a8993;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonSecondP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 1.75rem;
-          width: 18rem;
-          height: auto;
-        }
-      }
-      .hexagonThird {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 6vw;
-        width: 340px;
-        min-width: 340px;
-        height: 400px;
-        min-height: 400px;
-        background: #197491;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonThirdP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 1.75rem;
-          width: 18rem;
-          height: auto;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 989px) and (max-width: 1023px) {
-  .sectionHexagon {
-    position: relative;
-    z-index: 0;
-    min-height: 1250px;
-    max-height: 1250px;
-    max-width: 768px;
-    min-width: 768px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    &__background {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      .backgroundLine1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygon1 {
-          position: relative;
-          bottom: 2vh;
-          left: 12vw;
-          width: 340px;
-          min-width: 340px;
-          height: 400px;
-          min-height: 400px;
-        }
-        .polygonMini1 {
-          display: none;
-        }
-        .polygonMini1bis {
-          position: relative;
-          right: 61vw;
-          top: 5vh;
-        }
-        .polygonMini2 {
-          position: relative;
-          left: 20vw;
-        }
-        .polygonMini3 {
-          position: relative;
-          top: 16vh;
-          left: 20vw;
-        }
-        .polygon1bis1 {
-          display: none;
-        }
-        .polygonMini2bis {
-          display: none;
-        }
-      }
-      .backgroundLine2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygonMini4 {
-          position: relative;
-          bottom: 9vh;
-          left: 5vw;
-        }
-        .polygonMini5 {
-          display: none;
-        }
-        .polygon2 {
-          position: relative;
-          left: 38vw;
-          bottom: 4vh;
-          width: 340px;
-          min-width: 340px;
-          height: 400px;
-          min-height: 400px;
-        }
-        .polygon2bis {
-          position: relative;
-          right: 30vw;
-          top: 3vh;
-        }
-        .polygonMini6 {
-          display: none;
-        }
-        .polygonMini6bis {
-          display: none;
-        }
-        .polygonMini5bis {
-          display: none;
-        }
-      }
-      .backgroundLine3 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygon3ter {
-          position: relative;
-          right: -5vw;
-          bottom: 19vh;
-        }
-        .polygonMini7bis {
-          display: none;
-        }
-        .polygon3 {
-          position: relative;
-          bottom: -5vh;
-          left: 2vw;
-          width: 340px;
-          min-width: 340px;
-          height: 400px;
-          min-height: 400px;
-        }
-        .polygon3bis {
-          position: relative;
-          left: 6vw;
-          top: 2vh;
-        }
-        .polygonMini9 {
-          display: none;
-        }
-        .polygonMini9bis {
-          display: none;
-        }
-        .polygonMini7 {
-          position: relative;
-          right: 10vw;
-          top: 35vh;
-        }
-        .polygonMini8 {
-          display: none;
-        }
-        .polygonMini9ter {
-          display: none;
-        }
-      }
-    }
-    &__content {
-      position: relative;
-      z-index: 3;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      padding: 0;
-      margin: 0;
-      .hexagonFirst {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 3vw;
-        width: 340px;
-        min-width: 340px;
-        height: 400px;
-        min-height: 400px;
-        background: #000;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonFirstP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 1.75rem;
-          width: 18rem;
-          height: auto;
-        }
-      }
-      .hexagonSecond {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: 22vw;
-        width: 340px;
-        min-width: 340px;
-        height: 400px;
-        min-height: 400px;
-        background: #5a8993;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonSecondP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 1.75rem;
-          width: 18rem;
-          height: auto;
-        }
-      }
-      .hexagonThird {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 6vw;
+        right: 7%;
         width: 340px;
         min-width: 340px;
         height: 400px;
@@ -1424,24 +747,22 @@
         flex-wrap: nowrap;
         .polygon1 {
           position: relative;
-          bottom: 4vh;
+          bottom: 6%;
         }
         .polygonMini1 {
           display: none;
         }
         .polygonMini1bis {
-          position: relative;
-          right: 61vw;
-          top: 5vh;
+          display: none;
         }
         .polygonMini2 {
           position: relative;
-          left: 20vw;
+          left: 23%;
         }
         .polygonMini3 {
           position: relative;
-          top: 16vh;
-          left: 20vw;
+          left: 25%;
+          top: 29%;
         }
         .polygon1bis1 {
           display: none;
@@ -1461,13 +782,13 @@
         }
         .polygon2 {
           position: relative;
-          left: 37vw;
-          bottom: 13vh;
+          left: 49%;
+          bottom: 16%;
         }
         .polygon2bis {
           position: relative;
-          right: 25vw;
-          top: 6vh;
+          right: 36%;
+          top: 22%;
         }
         .polygonMini6 {
           display: none;
@@ -1485,20 +806,20 @@
         flex-wrap: nowrap;
         .polygon3ter {
           position: relative;
-          right: 8vw;
-          bottom: 16vh;
+          right: 9%;
+          bottom: 31%;
         }
         .polygonMini7bis {
           display: none;
         }
         .polygon3 {
           position: relative;
-          bottom: 10vh;
+          bottom: 12%;
         }
         .polygon3bis {
           position: relative;
-          left: 10vw;
-          top: 10vh;
+          left: 14%;
+          top: 28%;
         }
         .polygonMini9 {
           display: none;
@@ -1531,7 +852,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        right: 3vw;
+        right: 13%;
         width: 390px;
         min-width: 390px;
         height: 450px;
@@ -1559,7 +880,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        left: 22vw;
+        left: 28%;
         width: 390px;
         min-width: 390px;
         height: 450px;
@@ -1587,7 +908,8 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        right: 6vw;
+        right: 11%;
+        bottom: 5%;
         width: 390px;
         min-width: 390px;
         height: 450px;
@@ -1613,7 +935,7 @@
     }
   }
 }
-@media only screen and (min-width: 1661px) and (max-height: 919px) {
+@media only screen and (min-width: 1661px) {
   .sectionHexagon {
     position: relative;
     z-index: 0;
@@ -1640,32 +962,32 @@
         flex-wrap: nowrap;
         .polygon1 {
           position: relative;
-          left: 1vw;
-          bottom: 3vh;
+          left: 3%;
+          bottom: 5%;
         }
         .polygonMini1 {
           position: relative;
-          right: 30vw;
-          bottom: 8vh;
+          right: 70%;
+          bottom: 16%;
         }
         .polygonMini1bis {
           position: relative;
-          right: 27vw;
-          top: 0vh;
+          right: 65%;
+          top: 0%;
         }
         .polygonMini2 {
           position: relative;
-          left: 10vw;
-          top: 10vh;
+          left: 16%;
+          top: 16%;
         }
         .polygonMini3 {
           position: relative;
-          top: 10vh;
-          right: 45vw;
+          right: 107%;
+          top: 20%;
         }
         .polygon1bis1 {
           position: relative;
-          top: 22vh;
+          top: 40%;
         }
         .polygonMini2bis {
           position: relative;
@@ -1677,7 +999,7 @@
         flex-wrap: nowrap;
         .polygonMini4 {
           position: relative;
-          right: 5vw;
+          right: 12%;
         }
         .polygonMini5 {
           position: relative;
@@ -1685,27 +1007,27 @@
         }
         .polygon2 {
           position: relative;
-          left: 30vw;
-          bottom: 8vh;
+          left: 61%;
+          bottom: 14%;
         }
         .polygon2bis {
           position: relative;
-          right: 25vw;
-          top: 20vh;
+          right: 53%;
+          top: 38%;
         }
         .polygonMini6 {
           position: relative;
-          right: 20vw;
+          right: 47%;
         }
         .polygonMini6bis {
           position: relative;
-          top: 35vh;
-          left: 10vw;
+          left: 23%;
+          top: 67%;
         }
         .polygonMini5bis {
           position: relative;
           left: 5vw;
-          bottom: 10vh;
+          bottom: 15%;
         }
       }
       .backgroundLine3 {
@@ -1714,32 +1036,32 @@
         flex-wrap: nowrap;
         .polygon3ter {
           position: relative;
-          right: 20vw;
-          bottom: 4vh;
+          right: 45%;
+          top: 7%;
         }
         .polygonMini7bis {
           position: relative;
-          right: 10vw;
-          bottom: 5vh;
+          right: 21%;
+          bottom: 8%;
         }
         .polygon3 {
           position: relative;
-          right: 5vw;
+          right: 13%;
         }
         .polygon3bis {
           position: relative;
-          left: 5vw;
-          top: 39vh;
+          left: 10%;
+          top: 81%;
         }
         .polygonMini9 {
           position: relative;
-          right: 107vh;
-          top: 11vw;
+          right: 116%;
+          top: 47%;
         }
         .polygonMini9bis {
           position: relative;
-          right: 5vh;
-          top: 11vw;
+          right: 5%;
+          top: 40%;
         }
         .polygonMini7 {
           position: relative;
@@ -1748,13 +1070,13 @@
         }
         .polygonMini8 {
           position: relative;
-          top: 35vh;
-          right: 67vw;
+          right: 150%;
+          top: 74%;
         }
         .polygonMini9ter {
           position: relative;
-          top: 20vw;
-          right: 21vh;
+          right: 26%;
+          top: 65%;
         }
       }
     }
@@ -1772,7 +1094,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        right: 5vw;
+        right: 13%;
         width: 390px;
         min-width: 390px;
         height: 450px;
@@ -1800,7 +1122,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        left: 22vw;
+        left: 46%;
         width: 390px;
         min-width: 390px;
         height: 450px;
@@ -1828,734 +1150,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        right: 6vw;
-        width: 390px;
-        min-width: 390px;
-        height: 450px;
-        min-height: 450px;
-        background: #197491;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonThirdP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 2rem;
-          width: 20rem;
-          height: auto;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 1661px) and (min-height: 920px) and (max-height: 1059px) {
-  .sectionHexagon {
-    position: relative;
-    z-index: 0;
-    min-height: 1400px;
-    max-height: 1400px;
-    max-width: 815px;
-    min-width: 815px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    &__background {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      .backgroundLine1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygon1 {
-          position: relative;
-          left: 1vw;
-          bottom: 3vh;
-        }
-        .polygonMini1 {
-          position: relative;
-          right: 30vw;
-          bottom: 8vh;
-        }
-        .polygonMini1bis {
-          position: relative;
-          right: 27vw;
-          top: 0vh;
-        }
-        .polygonMini2 {
-          position: relative;
-          left: 10vw;
-          top: 10vh;
-        }
-        .polygonMini3 {
-          position: relative;
-          top: 10vh;
-          right: 45vw;
-        }
-        .polygon1bis1 {
-          position: relative;
-          top: 18vh;
-        }
-        .polygonMini2bis {
-          position: relative;
-        }
-      }
-      .backgroundLine2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygonMini4 {
-          position: relative;
-          right: 5vw;
-        }
-        .polygonMini5 {
-          position: relative;
-          right: 0vw;
-        }
-        .polygon2 {
-          position: relative;
-          left: 30vw;
-          bottom: 8vh;
-        }
-        .polygon2bis {
-          position: relative;
-          right: 25vw;
-          top: 20vh;
-        }
-        .polygonMini6 {
-          position: relative;
-          right: 20vw;
-        }
-        .polygonMini6bis {
-          position: relative;
-          top: 35vh;
-          left: 10vw;
-        }
-        .polygonMini5bis {
-          position: relative;
-          left: 5vw;
-          bottom: 10vh;
-        }
-      }
-      .backgroundLine3 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygon3ter {
-          position: relative;
-          right: 20vw;
-          bottom: 4vh;
-        }
-        .polygonMini7bis {
-          position: relative;
-          right: 10vw;
-          bottom: 5vh;
-        }
-        .polygon3 {
-          position: relative;
-          right: 5vw;
-        }
-        .polygon3bis {
-          position: relative;
-          left: 5vw;
-          top: 39vh;
-        }
-        .polygonMini9 {
-          position: relative;
-          right: 107vh;
-          top: 11vw;
-        }
-        .polygonMini9bis {
-          position: relative;
-          right: 5vh;
-          top: 11vw;
-        }
-        .polygonMini7 {
-          position: relative;
-          left: 0vw;
-          top: 5vh;
-        }
-        .polygonMini8 {
-          position: relative;
-          top: 35vh;
-          right: 67vw;
-        }
-        .polygonMini9ter {
-          position: relative;
-          top: 20vw;
-          right: 21vh;
-        }
-      }
-    }
-    &__content {
-      position: relative;
-      z-index: 3;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      padding: 0;
-      margin: 0;
-      .hexagonFirst {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 5vw;
-        width: 390px;
-        min-width: 390px;
-        height: 450px;
-        min-height: 450px;
-        background: #000;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonFirstP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 2rem;
-          width: 20rem;
-          height: auto;
-        }
-      }
-      .hexagonSecond {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: 22vw;
-        width: 390px;
-        min-width: 390px;
-        height: 450px;
-        min-height: 450px;
-        background: #5a8993;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonSecondP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 2rem;
-          width: 20rem;
-          height: auto;
-        }
-      }
-      .hexagonThird {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 6vw;
-        width: 390px;
-        min-width: 390px;
-        height: 450px;
-        min-height: 450px;
-        background: #197491;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonThirdP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 2rem;
-          width: 20rem;
-          height: auto;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 1661px) and (min-height: 1059px) {
-  .sectionHexagon {
-    position: relative;
-    z-index: 0;
-    min-height: 1400px;
-    max-height: 1400px;
-    max-width: 815px;
-    min-width: 815px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    &__background {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      .backgroundLine1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygon1 {
-          position: relative;
-          left: 1vw;
-          bottom: 3vh;
-        }
-        .polygonMini1 {
-          position: relative;
-          right: 30vw;
-          bottom: 8vh;
-        }
-        .polygonMini1bis {
-          position: relative;
-          right: 27vw;
-          top: 0vh;
-        }
-        .polygonMini2 {
-          position: relative;
-          left: 10vw;
-          top: 5vh;
-        }
-        .polygonMini3 {
-          position: relative;
-          top: 10vh;
-          right: 45vw;
-        }
-        .polygon1bis1 {
-          position: relative;
-          top: 13vh;
-        }
-        .polygonMini2bis {
-          position: relative;
-        }
-      }
-      .backgroundLine2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygonMini4 {
-          position: relative;
-          right: 5vw;
-        }
-        .polygonMini5 {
-          position: relative;
-          right: 0vw;
-        }
-        .polygon2 {
-          position: relative;
-          left: 30vw;
-          bottom: 8vh;
-        }
-        .polygon2bis {
-          position: relative;
-          right: 25vw;
-          top: 20vh;
-        }
-        .polygonMini6 {
-          position: relative;
-          right: 20vw;
-        }
-        .polygonMini6bis {
-          position: relative;
-          top: 35vh;
-          left: 10vw;
-        }
-        .polygonMini5bis {
-          position: relative;
-          left: 5vw;
-          bottom: 10vh;
-        }
-      }
-      .backgroundLine3 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygon3ter {
-          position: relative;
-          right: 20vw;
-          bottom: 4vh;
-        }
-        .polygonMini7bis {
-          position: relative;
-          right: 10vw;
-          bottom: 5vh;
-        }
-        .polygon3 {
-          position: relative;
-          right: 5vw;
-          bottom: 0vh;
-        }
-        .polygon3bis {
-          position: relative;
-          left: 5vw;
-          top: 39vh;
-        }
-        .polygonMini9 {
-          position: relative;
-          right: 107vw;
-          top: 11vh;
-        }
-        .polygonMini9bis {
-          position: relative;
-          right: 5vw;
-          top: 11vh;
-        }
-        .polygonMini7 {
-          position: relative;
-          left: 0vw;
-          top: 5vh;
-        }
-        .polygonMini8 {
-          position: relative;
-          top: 35vh;
-          right: 67vw;
-        }
-        .polygonMini9ter {
-          position: relative;
-          top: 20vh;
-          right: 16vw;
-        }
-      }
-    }
-    &__content {
-      position: relative;
-      z-index: 3;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      padding: 0;
-      margin: 0;
-      .hexagonFirst {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 5vw;
-        width: 390px;
-        min-width: 390px;
-        height: 450px;
-        min-height: 450px;
-        background: #000;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonFirstP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 2rem;
-          width: 20rem;
-          height: auto;
-        }
-      }
-      .hexagonSecond {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: 22vw;
-        width: 390px;
-        min-width: 390px;
-        height: 450px;
-        min-height: 450px;
-        background: #5a8993;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonSecondP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 2rem;
-          width: 20rem;
-          height: auto;
-        }
-      }
-      .hexagonThird {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 6vw;
-        width: 390px;
-        min-width: 390px;
-        height: 450px;
-        min-height: 450px;
-        background: #197491;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonThirdP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 2rem;
-          width: 20rem;
-          height: auto;
-        }
-      }
-    }
-  }
-}
-@media only screen and (min-width: 2034px) and (min-height: 1059px) {
-  .sectionHexagon {
-    position: relative;
-    z-index: 0;
-    min-height: 1400px;
-    max-height: 1400px;
-    max-width: 815px;
-    min-width: 815px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    &__background {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      .backgroundLine1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygon1 {
-          position: relative;
-          left: 1vw;
-          bottom: 3vh;
-        }
-        .polygonMini1 {
-          position: relative;
-          right: 30vw;
-          bottom: 8vh;
-        }
-        .polygonMini1bis {
-          position: relative;
-          right: 27vw;
-          top: 0vh;
-        }
-        .polygonMini2 {
-          position: relative;
-          left: 10vw;
-          top: 5vh;
-        }
-        .polygonMini3 {
-          position: relative;
-          top: 10vh;
-          right: 45vw;
-        }
-        .polygon1bis1 {
-          position: relative;
-          top: 13vh;
-        }
-        .polygonMini2bis {
-          position: relative;
-        }
-      }
-      .backgroundLine2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygonMini4 {
-          position: relative;
-          right: 5vw;
-        }
-        .polygonMini5 {
-          position: relative;
-          right: 0vw;
-        }
-        .polygon2 {
-          position: relative;
-          left: 30vw;
-          bottom: 8vh;
-        }
-        .polygon2bis {
-          position: relative;
-          right: 25vw;
-          top: 20vh;
-        }
-        .polygonMini6 {
-          position: relative;
-          right: 20vw;
-        }
-        .polygonMini6bis {
-          position: relative;
-          top: 31vh;
-          left: 14vw;
-        }
-        .polygonMini5bis {
-          position: relative;
-          left: 5vw;
-          bottom: 10vh;
-        }
-      }
-      .backgroundLine3 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .polygon3ter {
-          position: relative;
-          right: 20vw;
-          bottom: 4vh;
-        }
-        .polygonMini7bis {
-          position: relative;
-          right: 15vw;
-          bottom: -1vh;
-        }
-        .polygon3 {
-          position: relative;
-          right: 5vw;
-          bottom: 0vh;
-        }
-        .polygon3bis {
-          position: relative;
-          left: 5vw;
-          top: 39vh;
-        }
-        .polygonMini9 {
-          position: relative;
-          right: 107vw;
-          top: 11vh;
-        }
-        .polygonMini9bis {
-          position: relative;
-          right: 5vw;
-          top: 11vh;
-        }
-        .polygonMini7 {
-          position: relative;
-          left: 0vw;
-          top: 5vh;
-        }
-        .polygonMini8 {
-          position: relative;
-          top: 19vh;
-          right: 67vw;
-        }
-        .polygonMini9ter {
-          position: relative;
-          top: 20vh;
-          right: 16vw;
-        }
-      }
-    }
-    &__content {
-      position: relative;
-      z-index: 3;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      padding: 0;
-      margin: 0;
-      .hexagonFirst {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 5vw;
-        bottom: 2vh;
-        width: 390px;
-        min-width: 390px;
-        height: 450px;
-        min-height: 450px;
-        background: #000;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonFirstP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 2rem;
-          width: 20rem;
-          height: auto;
-        }
-      }
-      .hexagonSecond {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        bottom: 2vh;
-        left: 24vw;
-        width: 390px;
-        min-width: 390px;
-        height: 450px;
-        min-height: 450px;
-        background: #5a8993;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-        .hexagonSecondP {
-          color: #fff;
-          text-align: center;
-          font-family: $font2;
-          font-size: 2rem;
-          width: 20rem;
-          height: auto;
-        }
-      }
-      .hexagonThird {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 6vw;
+        right: 14%;
         width: 390px;
         min-width: 390px;
         height: 450px;
