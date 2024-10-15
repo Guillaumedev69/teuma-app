@@ -2,6 +2,45 @@
 .sectionReview {
   display: none;
 }
+@media only screen and (max-width: 600px){
+  .homePage {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    .mainHomePage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      .sectionIntro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        .h1BtnContain {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h1 {
+            color: #000;
+            text-align: center;
+            font-family: $font2;
+            font-size: 2.5rem;
+          }
+        }
+      }
+      .sectionAbout{
+        width: 100%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .homePage {
     border: 1px solid #000;
