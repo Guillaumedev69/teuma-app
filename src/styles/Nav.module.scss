@@ -1,135 +1,6 @@
 @import "../Global.module.scss";
 
-@media only screen and (max-width: 599px) {
-  .nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    font-family: $font1;
-    text-wrap: nowrap;
-    a {
-      position: relative;
-      font-size: 1.2rem;
-      color: #fff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #a7e1fa;
-      top: 1px;
-    }
-
-    .btnMission {
-      position: relative;
-      all: unset;
-      color: #fff;
-      font-size: 1.2rem;
-      cursor: pointer;
-    }
-
-    .btnMission:hover {
-      position: relative;
-      color: #a7e1fa;
-      top: 1px;
-    }
-    p:hover {
-      top: 1px;
-    }
-
-    .listMission {
-      border: 1px solid red;
-      list-style: none;
-      padding: 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      position: absolute;
-      top: 10%;
-      left: 73.3%;
-      z-index: 1000;
-      width: 15rem;
-      background-color: #000;
-      border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-      a {
-        font-size: 1.2rem;
-        color: #fff;
-        text-decoration: none;
-      }
-
-      a:hover {
-        color: #a7e1fa;
-      }
-    }
-  }
-}
-@media only screen and (min-width: 600px) and (max-width:768px) {
-  .nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    font-family: $font1;
-    text-wrap: nowrap;
-    a {
-      position: relative;
-      font-size: 1.2rem;
-      color: #fff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #a7e1fa;
-      top: 1px;
-    }
-
-    .btnMission {
-      position: relative;
-      all: unset;
-      color: #fff;
-      font-size: 1.2rem;
-      cursor: pointer;
-    }
-
-    .btnMission:hover {
-      position: relative;
-      color: #a7e1fa;
-      top: 1px;
-    }
-    p:hover {
-      top: 1px;
-    }
-
-    .listMission {
-      list-style: none;
-      padding: 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      position: absolute;
-      top: 10%;
-      left: 73.3%;
-      z-index: 1000;
-      width: 15rem;
-      background-color: #000;
-      border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-      a {
-        font-size: 1.2rem;
-        color: #fff;
-        text-decoration: none;
-      }
-
-      a:hover {
-        color: #a7e1fa;
-      }
-    }
-  }
-}
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 898px) and (max-width: 1024px) {
   .nav {
     display: flex;
     flex-direction: row;
@@ -169,18 +40,19 @@
     .listMission {
       list-style: none;
       text-wrap: balance;
-      padding: 1.2rem;
+      padding: 1rem 0 1rem 0;
+      margin: 0;
       display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
+      flex-direction: row;
+      justify-content: center;
+      gap: 1.5rem;
       position: absolute;
-      top: 9vh;
-      left: 60vw;
+      left: 0%;
+      top: 84%;
       z-index: 1000;
-      width: 9rem;
+      width: 100%;
       background-color: #000;
-      border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
 
       a {
         font-size: 1.2rem;
@@ -194,7 +66,7 @@
     }
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
   .nav {
     display: flex;
     flex-direction: row;
@@ -229,24 +101,26 @@
     p:hover {
       top: 1px;
     }
-
+    ul{all: unset;}
     .listMission {
       list-style: none;
-      padding: 1rem;
+      text-wrap: nowrap;
+     padding-bottom: 1rem;
+      margin: 0;
       display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
+      flex-direction: row;
+      justify-content: center;
+      gap: 1.5rem;
       position: absolute;
-      top: 10%;
-      left: 73.3%;
+      left: 0%;
+      top: 84%;
       z-index: 1000;
-      width: 15rem;
+      width: 100%;
       background-color: #000;
-      border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
 
       a {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         color: #fff;
         text-decoration: none;
       }
@@ -292,25 +166,61 @@
     p:hover {
       top: 1px;
     }
-
+    ul {
+      all: unset;
+    }
     .listMission {
-      border: 1px solid red;
       list-style: none;
-      padding: 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
       position: absolute;
-      top: 10%;
-      left: 73.3%;
+      left: 0%;
+      top: 86%;
       z-index: 1000;
-      width: 15rem;
+      margin: 0;
+      padding-bottom: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      width: 100%;
       background-color: #000;
-      border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
 
       a {
         font-size: 1.5rem;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #a7e1fa;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1661px) {
+  .nav {
+    ul {
+      all: unset;
+    }
+    .listMission {
+      list-style: none;
+      position: absolute;
+      left: 0%;
+      top: 86%;
+      z-index: 1000;
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      width: 100%;
+      background-color: #000;
+      box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
+
+      a {
+        font-size: 1.8rem;
         color: #fff;
         text-decoration: none;
       }

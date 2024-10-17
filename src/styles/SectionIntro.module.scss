@@ -1,0 +1,101 @@
+@import "../Global.module.scss";
+@media only screen and (max-width: 600px) {
+  .sectionIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    .h1BtnContain {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1 {
+        color: #000;
+        text-align: center;
+        font-family: $font2;
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .sectionIntro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 6vw;
+        .h1BtnContain {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h1 {
+            color: #000;
+            text-align: center;
+            font-family: $font2;
+            font-size: 2.5rem;
+          }
+        }
+      }
+}
+@media only screen and (min-width: 768px){
+    .sectionIntro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 6vw;
+        .h1BtnContain {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h1 {
+            color: #000;
+            text-align: center;
+            font-family: $font2;
+            font-size: 2.5rem;
+          }
+        }
+      }
+}
+@media only screen and (min-width: 1024px){
+    .sectionIntro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 14vw;
+        .h1BtnContain {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h1 {
+            color: #000;
+            text-align: center;
+            font-family: $font2;
+            font-size: 4rem;
+          }
+        }
+      }
+}
+@media only screen and (min-width: 2034px){
+    .sectionIntro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 14vw;
+        .h1BtnContain {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h1 {
+            color: #000;
+            text-align: center;
+            font-family: $font2;
+            font-size: 4rem;
+          }
+        }
+      }
+}

@@ -1,7 +1,10 @@
 @import "../Global.module.scss";
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 600px) {
   .header {
+    position: sticky;
+    top: 0%;
+    z-index: 3000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,10 +12,14 @@
     padding: 0 0.5rem;
     align-items: center;
     background-color: #000;
+    box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .header {
+    position: sticky;
+    top: 0%;
+    z-index: 3000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,10 +27,14 @@
     padding: 0 0.5rem;
     align-items: center;
     background-color: #000;
+    box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .header {
+    position: sticky;
+    top: 0%;
+    z-index: 3000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,25 +43,34 @@
     height: 7rem;
     align-items: center;
     background-color: #000;
+    box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
   }
 }
 @media only screen and (min-width: 1024px) {
   .header {
+    position: sticky;
+    top: 0%;
+    z-index: 3000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1rem;
     align-items: center;
     background-color: #000;
+    box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
   }
 }
 @media only screen and (min-width: 1400px) {
   .header {
+    position: sticky;
+    top: 0%;
+    z-index: 3000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1rem;
     align-items: center;
     background-color: #000;
+    box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
   }
 }

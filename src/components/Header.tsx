@@ -6,6 +6,7 @@ import NavBurger from "./NavBurger";
 
 
 const Header = () => {
+
     return (
         <header className={styles.header}>
             <Link href="/">

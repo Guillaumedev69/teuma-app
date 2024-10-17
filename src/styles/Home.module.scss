@@ -2,35 +2,17 @@
 .sectionReview {
   display: none;
 }
-@media only screen and (max-width: 599px){
+@media only screen and (max-width: 600px){
   .homePage {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 4rem;
     .mainHomePage {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 3rem;
-      .sectionIntro {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-        .h1BtnContain {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          h1 {
-            color: #000;
-            text-align: center;
-            font-family: $font2;
-            font-size: 2.5rem;
-          }
-        }
-      }
+      
       .sectionAbout{
         width: 100%;
         img{
@@ -51,24 +33,7 @@
       flex-direction: column;
       align-items: center;
       gap: 3rem;
-      .sectionIntro {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 6vw;
-        .h1BtnContain {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          h1 {
-            color: #000;
-            text-align: center;
-            font-family: $font2;
-            font-size: 2.5rem;
-          }
-        }
-      }
+      
     }
   }
 }
@@ -82,24 +47,7 @@
       flex-direction: column;
       align-items: center;
       gap: 3rem;
-      .sectionIntro {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 6vw;
-        .h1BtnContain {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          h1 {
-            color: #000;
-            text-align: center;
-            font-family: $font2;
-            font-size: 2.5rem;
-          }
-        }
-      }
+      
     }
   }
 }
@@ -113,24 +61,7 @@
       flex-direction: column;
       align-items: center;
       gap: 3rem;
-      .sectionIntro {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 14vw;
-        .h1BtnContain {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          h1 {
-            color: #000;
-            text-align: center;
-            font-family: $font2;
-            font-size: 4rem;
-          }
-        }
-      }
+      
     }
   }
 }
@@ -144,24 +75,7 @@
       flex-direction: column;
       align-items: center;
       gap: 8rem;
-      .sectionIntro {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 14vw;
-        .h1BtnContain {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          h1 {
-            color: #000;
-            text-align: center;
-            font-family: $font2;
-            font-size: 4rem;
-          }
-        }
-      }
+      
     }
   }
 }

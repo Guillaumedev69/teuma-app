@@ -80,6 +80,7 @@
 
   .backgroundImg {
     position: absolute;
+    right: 7%;
     bottom: 0;
     width: 27rem;
     height: 30rem;
@@ -92,8 +93,8 @@
   .img {
     position: relative;
     z-index: 2;
-    right: -50px;
-    bottom: -5px;
+    right: -3%;
+    top: 4px;
   }
 }
 @media only screen and (min-width: 1400px) {

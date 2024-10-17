@@ -15,13 +15,11 @@ const Nav = () => {
         <nav className={styles.nav}>
             <Link href="/">Accueil</Link>
             <Link href="/about">À propos</Link>
-
             <button className={styles.btnMission} onClick={handleButtonClick}>
                 <p>
                     Nos missions
                 </p>
             </button>
-
             {isVisible && (
                 <ul className={styles.listMission}>
                     <li>
