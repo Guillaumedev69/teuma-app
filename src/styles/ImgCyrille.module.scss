@@ -5,7 +5,7 @@
     .backgroundImg {
       position: absolute;
       bottom: 0;
-      right: -2vw;
+      left: -8%;
       width: 16.8125rem;
       height: 19.75rem;
       border-radius: 40px;
@@ -16,7 +16,7 @@
     .img {
       position: relative;
       z-index: 2;
-      right: -16px;
+      left: 2%;
       bottom: -5px;
       width: 15.6875rem;
       height: 22.25rem;
@@ -90,7 +90,7 @@
     .img {
       position: relative;
       z-index: 2;
-      right: -3%;
+      left: 0%;
       top: 4px;
     }
   }
@@ -102,8 +102,8 @@
     .backgroundImg {
       position: absolute;
       bottom: 0;
-      width: 29rem;
-      height: 32rem;
+      width: 18rem;
+      height: 21rem;
       border-radius: 40px;
       background: #c7e2e9;
       box-shadow: 1px -6px 10px 1px #c7e2e9;
@@ -112,7 +112,7 @@
     .img {
       position: relative;
       z-index: 2;
-      right: 0%;
+      left: 2%;
       bottom: -5px;
     }
   }

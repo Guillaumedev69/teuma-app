@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ImgPhone2 from "../images/phone-solid.svg"
+import ImgPhone2 from "@/images/phone-solid.svg"
 import styles from "@/Global.module.scss"
 const ImgCall2 = () => {
     return (

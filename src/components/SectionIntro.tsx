@@ -1,18 +1,14 @@
 import styles from "@/styles/SectionIntro.module.scss"
-import BtnContact from "./BtnContact";
-import ImgCyrille from "./ImgCyrille";
+import BackgroundIntro from "./backgroundIntro";
 const SectionIntro = () => {
     return (
         <section className={styles.sectionIntro}>
-            <div className={styles.h1BtnContain}>
-                <h1 className={styles.titleh1}>
-                    Stratégie<br />
-                    Management<br />
-                    Expertise
-                </h1>
-                <BtnContact />
+            <BackgroundIntro />
+            <div className={styles.h2Contain}>
+                <h2 className={styles.titleH2}>Stratégie</h2>
+                <h2 className={styles.titleH2}>Management</h2>
+                <h2 className={styles.titleH2}>Expertise</h2>
             </div>
-            <ImgCyrille />
         </section>
     );
 };

@@ -1,3 +1,4 @@
+import BtnContact from "@/components/BtnContact"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import Hexagon from "@/components/Hexagon"
@@ -12,15 +13,18 @@ import styles from "@/styles/Home.module.scss"
 export default function Home() {
     return (
         <div className={styles.homePage}>
-            <Header />
+            <div>
+                <Header />
+                <SectionIntro />
+            </div>
             <main className={styles.mainHomePage} >
-                <SectionIntro/>
+                <BtnContact />
                 <Hexagon />
                 <section className={styles.sectionReview}>
                     <h2>Vos avis sont importants</h2>
                     <ReviewGoogle />
                 </section>
-                <SectionAbout/>
+                <SectionAbout />
             </main>
             <Footer />
         </div>

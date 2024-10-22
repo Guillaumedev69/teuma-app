@@ -1,17 +1,83 @@
 @import "../Global.module.scss";
 @media only screen and (max-width: 600px) {
   .sectionIntro {
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    .h1BtnContain {
+    width: 100%;
+    img {
+      position: relative;
+      width: 100%;
+      height: initial;
+      min-height: 9rem;
+      filter: brightness(49%);
+    }
+    .h2Contain {
+      position: absolute;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      h1 {
-        color: #000;
+      justify-content: center;
+      width: 100%;
+      bottom: 20%;
+      gap: 0rem;
+      .titleH2 {
+        color: #fff;
+        text-align: center;
+        font-family: $font2;
+        font-size: 1.7rem;
+        margin: 0;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 600px) {
+  .sectionIntro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    img {
+      position: relative;
+      width: 100%;
+      height: initial;
+      filter: brightness(49%);
+    }
+    .h2Contain {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      bottom: 40%;
+      gap: 2rem;
+      .titleH2 {
+        color: #fff;
+        text-align: center;
+        font-family: $font2;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .sectionIntro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    img {
+      position: relative;
+      width: 100%;
+      filter: brightness(49%);
+    }
+    .h2Contain {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      bottom: 40%;
+      gap: 4rem;
+      .titleH2 {
+        color: #fff;
         text-align: center;
         font-family: $font2;
         font-size: 2.5rem;
@@ -19,83 +85,56 @@
     }
   }
 }
-@media only screen and (min-width: 600px) and (max-width: 768px){
-    .sectionIntro {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 6vw;
-        .h1BtnContain {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          h1 {
-            color: #000;
-            text-align: center;
-            font-family: $font2;
-            font-size: 2.5rem;
-          }
-        }
+@media only screen and (min-width: 1024px) {
+  .sectionIntro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    img {
+      position: relative;
+      width: 100%;
+      height: auto;
+      filter: brightness(49%);
+    }
+    .h2Contain {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      bottom: 40%;
+      gap: 5rem;
+      .titleH2 {
+        color: #fff;
+        text-align: center;
+        font-family: $font2;
+        font-size: 3rem;
       }
+    }
+  }
 }
-@media only screen and (min-width: 768px){
-    .sectionIntro {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 6vw;
-        .h1BtnContain {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          h1 {
-            color: #000;
-            text-align: center;
-            font-family: $font2;
-            font-size: 2.5rem;
-          }
-        }
+@media only screen and (min-width: 1440px) {
+  .sectionIntro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    img {
+      position: relative;
+      width: 100%;
+      filter: brightness(49%);
+    }
+    .h2Contain {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      bottom: 40%;
+      gap: 10rem;
+      .titleH2 {
+        color: #fff;
+        text-align: center;
+        font-family: $font2;
+        font-size: 4rem;
       }
-}
-@media only screen and (min-width: 1024px){
-    .sectionIntro {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 14vw;
-        .h1BtnContain {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          h1 {
-            color: #000;
-            text-align: center;
-            font-family: $font2;
-            font-size: 4rem;
-          }
-        }
-      }
-}
-@media only screen and (min-width: 2034px){
-    .sectionIntro {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 14vw;
-        .h1BtnContain {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          h1 {
-            color: #000;
-            text-align: center;
-            font-family: $font2;
-            font-size: 4rem;
-          }
-        }
-      }
+    }
+  }
 }
