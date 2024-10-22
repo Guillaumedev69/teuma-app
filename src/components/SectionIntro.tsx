@@ -1,9 +1,9 @@
-import styles from "@/styles/SectionIntro.module.scss"
-import BackgroundIntro from "./backgroundIntro";
+import styles from "@/styles/SectionIntro.module.scss";
+import BackgroundIntroImg from "./BackgroundIntro";
 const SectionIntro = () => {
     return (
         <section className={styles.sectionIntro}>
-            <BackgroundIntro />
+            <BackgroundIntroImg />
             <div className={styles.h2Contain}>
                 <h2 className={styles.titleH2}>Stratégie</h2>
                 <h2 className={styles.titleH2}>Management</h2>
