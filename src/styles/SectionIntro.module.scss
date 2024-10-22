@@ -9,7 +9,7 @@
       position: relative;
       width: 100%;
       height: initial;
-      min-height: 9rem;
+      min-height: 11rem;
       filter: brightness(49%);
     }
     .h2Contain {
@@ -19,12 +19,12 @@
       justify-content: center;
       width: 100%;
       bottom: 20%;
-      gap: 0rem;
+      gap: 0.4rem;
       .titleH2 {
         color: #fff;
         text-align: center;
         font-family: $font2;
-        font-size: 1.7rem;
+        font-size: 2rem;
         margin: 0;
       }
     }
