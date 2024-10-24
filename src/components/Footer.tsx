@@ -28,16 +28,16 @@ const Footer = () => {
                             <li>SÉCURITÉ ET AUDIT</li>
                         </Link>
                         <Link href="/missions/formation">
-                            <li>FORMATION</li>
+                            <li className={styles.formationNone}>FORMATION</li>
                         </Link>
                     </ul>
                 </div>
                 <div className={styles.linkContainer}>
 
                     <Link href="/about">À propos</Link>
-                    <Link href="/review">Avis</Link>
-                    <Link href="/legalnotices">Mention Légales</Link>
+                    <Link className={styles.formationNone} href="/review">Avis</Link>
                     <Link href="/contact">Contactez-nous</Link>
+                    <Link href="/legalnotices">Mention Légales</Link>
                 </div>
                 <div className={styles.linkContactContainer}>
 

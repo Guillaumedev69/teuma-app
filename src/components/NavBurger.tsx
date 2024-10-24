@@ -33,7 +33,7 @@ const NavBurger: React.FC = () => {
                     <Link href="/missions/gestion-rh" onClick={toggleMenu}>Gestion RH</Link>
                     <Link href="/missions/developpement-commercial" onClick={toggleMenu}>Développement commercial</Link>
                     <Link href="/missions/securite-audit" onClick={toggleMenu}>Sécurité &amp; Audit</Link>
-                    <Link href="/missions/formation" onClick={toggleMenu}>Formation</Link>
+                    <Link className={styles.formationNone} href="/missions/formation" onClick={toggleMenu}>Formation</Link>
                     <div className={styles.separation}></div>
                     <Link href="/contact" onClick={toggleMenu} className={styles.contactLink}>Contactez-nous</Link>
                 </div>

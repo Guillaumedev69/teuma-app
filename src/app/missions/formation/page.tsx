@@ -1,8 +1,9 @@
 import Cards from "@/components/Cards";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import styles from "@/styles/Formation.module.scss"
-
+import styles from "@/styles/MissionPage.module.scss";
+import Image from "next/image";
+import Background from "@/images/background/backgroundFormation.webp"
 
 const page = () => {
     const donneesCard = [
@@ -33,10 +34,11 @@ const page = () => {
         },
     ];
     return (
-        <div>
+        <div className={styles.missionPage}>
             <Header />
-            <h1>Formation</h1>
-            <div className={styles.cardsGrid}>
+            <h1 className={styles.missionPage__title}>Formation</h1>
+            <Image className={styles.missionPage__background} src={Background} alt="photo d'une personne faisant de la comptabilité" />
+            <div className={styles.cardsContainer}>
                 {donneesCard.map((card, index) => (
                     <Cards
                         key={card.id}

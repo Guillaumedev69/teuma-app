@@ -23,21 +23,21 @@ const Cards: React.FC<CardsProps> = ({ title, description, index }) => {
     };
 
     return (
-        <div className={styles.cardsContainer}>
-            <div
-                className={`${styles.cards} ${cartesRetournees.includes(index) ? styles.flipped : ""}`}
-                key={index}
-                onClick={() => gererClicCarte(index)}
-            >
-                <div className={styles.cardsFront}>
-                    <h2 className={styles.cardsTitle}>{title}</h2>
-                </div>
-                <div className={styles.cardsBack}>
-                    <p className={styles.cardsDescription}>{description}</p>
-                    <a className={styles.cardsLink} href="/contact">contactez-nous</a>
-                </div>
+
+        <div
+            className={`${styles.cards} ${cartesRetournees.includes(index) ? styles.flipped : ""}`}
+            key={index}
+            onClick={() => gererClicCarte(index)}
+        >
+            <div className={styles.cardsFront}>
+                <h2 className={styles.cardsTitle}>{title}</h2>
+            </div>
+            <div className={styles.cardsBack}>
+                <p className={styles.cardsDescription}>{description}</p>
+                <a className={styles.cardsLink} href="/contact">contactez-nous</a>
             </div>
         </div>
+
     );
 };
 

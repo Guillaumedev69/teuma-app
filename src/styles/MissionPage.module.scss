@@ -1,0 +1,39 @@
+@import "../Global.module.scss";
+
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1440px) {
+  .missionPage {
+    display: flex;
+    flex-direction: column;
+    &__title {
+      margin:  5rem 0 5rem 0;
+      padding: 0;
+      text-align: center;
+    }
+    &__background {
+      width: 100%;
+      height: 70rem;
+    }
+
+    .cardsContainer {
+      position: absolute;
+      z-index: 10;
+      top: 49%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 6rem;
+      row-gap: 2rem;
+      width: 100%;
+    }
+  }
+}

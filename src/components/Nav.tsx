@@ -43,8 +43,7 @@ const Nav = () => {
                             Sécurité &amp; Audit
                         </Link>
                     </li>
-                    <li className={styles.break}>\</li>
-                    <li>
+                    <li className={styles.formationNone}>
                         <Link href="/missions/formation">
                             Formation
                         </Link>
