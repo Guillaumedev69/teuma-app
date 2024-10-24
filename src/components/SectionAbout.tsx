@@ -4,7 +4,7 @@ import ImgCyrille from "./ImgCyrille";
 const SectionAbout = () => {
     return (
         <section className={styles.sectionAbout}>
-            <h2 className={styles.sectionAbout__title}>À propos de nous</h2>
+            <h2 className={styles.sectionAbout__title}>À propos de TEUMA SME</h2>
             <div className={styles.sectionAbout__content}>
                 <ImgCyrille />
                 <div className={styles.contentText}>
