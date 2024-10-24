@@ -1,11 +1,14 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import SectionAbout from "@/components/SectionAbout";
+import styles from "@/styles/AboutPage.module.scss";
 
 export default function about() {
-    return (<div>
-        <Header />        <SectionAbout />
-        <Footer />
-    </div>
+    return (
+        <div className={styles.Aboutpage}>
+            <Header />
+            <SectionAbout />
+            <Footer />
+        </div>
     )
 }
