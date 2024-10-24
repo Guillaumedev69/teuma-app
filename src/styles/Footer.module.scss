@@ -184,9 +184,9 @@
       padding: 0.5rem;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-evenly;
       gap: 1rem;
-      align-items: start;
+      align-items: center;
       font-family: $font1;
       font-weight: bold;
       background-color: #a8e1fb;
@@ -241,10 +241,8 @@
       }
       .linkContactContainer {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap: 0.2rem;
+        flex-direction: row;
+        gap: 1.5rem;
       }
     }
     .footerSecond {
@@ -270,8 +268,6 @@
       padding: 0.5rem 0;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
       font-family: $font1;
       font-weight: bold;
       background-color: #a8e1fb;
@@ -279,15 +275,12 @@
       .missionContainer {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-        text-align: center;
         margin-left: 4rem;
         .missionTitle {
           margin: 0;
           text-decoration: underline;
           font-weight: bold;
-          text-align: center;
           font-size: 1rem;
         }
         ul {
@@ -312,10 +305,9 @@
       .linkContainer {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 0.5rem;
         margin-right: 6rem;
         font-size: 1rem;
-        text-align: center;
         a {
           color: #000;
         }
@@ -363,7 +355,6 @@
       padding-top: 0.5rem;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
       align-items: center;
       font-family: $font1;
       font-weight: bold;
@@ -372,9 +363,7 @@
       .missionContainer {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-        text-align: center;
         margin-left: 4rem;
         .missionTitle {
           margin: 0;
@@ -403,10 +392,9 @@
       .linkContainer {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 0.5rem;
         margin-right: 6rem;
         font-size: 1.2rem;
-        text-align: center;
         a {
           color: #000;
         }

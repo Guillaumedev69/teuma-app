@@ -14,7 +14,7 @@
       z-index: 2000;
       position: relative;
       width: 22px;
-      height: 20.5px
+      height: 20.5px;
     }
 
     .burgerButton span {
@@ -124,7 +124,7 @@
       z-index: 2000;
       position: relative;
       width: 40px;
-      height: 40px;
+      height: 30px;
     }
 
     .burgerButton span {
@@ -140,14 +140,17 @@
 
     .burgerButton .top {
       top: 0;
+      width: 35px;
     }
 
     .burgerButton .middle {
-      top: 17px;
+      top: 13px;
+      width: 35px;
     }
 
     .burgerButton .bottom {
       bottom: 0;
+      width: 35px;
     }
 
     .hiddenCheckbox {
@@ -157,7 +160,7 @@
     .hiddenCheckbox:checked ~ .top {
       transform: rotate(45deg);
       transform-origin: top left;
-      width: 48px;
+      width: 36.5px;
       left: 5px;
     }
 
@@ -168,14 +171,14 @@
     .hiddenCheckbox:checked ~ .bottom {
       transform: rotate(-45deg);
       transform-origin: top left;
-      width: 48px;
+      width: 36.5px;
       bottom: -1px;
     }
 
     .menu {
       position: absolute;
-      top: 86px;
-      right: -1.3vw;
+      top: 68px;
+      right: -20%;
       width: 155px;
       max-width: 155px;
       background-color: #000;
@@ -234,7 +237,7 @@
       z-index: 2000;
       position: relative;
       width: 40px;
-      height: 40px;
+      height: 30px;
     }
 
     .burgerButton span {
@@ -250,14 +253,17 @@
 
     .burgerButton .top {
       top: 0;
+      width: 35px;
     }
 
     .burgerButton .middle {
-      top: 17px;
+      top: 13px;
+      width: 35px;
     }
 
     .burgerButton .bottom {
       bottom: 0;
+      width: 35px;
     }
 
     .hiddenCheckbox {
@@ -267,7 +273,7 @@
     .hiddenCheckbox:checked ~ .top {
       transform: rotate(45deg);
       transform-origin: top left;
-      width: 48px;
+      width: 36.5px;
       left: 5px;
     }
 
@@ -278,7 +284,7 @@
     .hiddenCheckbox:checked ~ .bottom {
       transform: rotate(-45deg);
       transform-origin: top left;
-      width: 48px;
+      width: 36.5px;
       bottom: -1px;
     }
 
@@ -286,7 +292,7 @@
       font-size: 1.2rem;
       position: absolute;
       top: 70px;
-      right: -2vw;
+      right: -39%;
       width: 155px;
       max-width: 155px;
       background-color: #000;
@@ -332,7 +338,7 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .navBurger {
     display: none;
   }

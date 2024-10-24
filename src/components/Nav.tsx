@@ -27,19 +27,23 @@ const Nav = () => {
                             Comptabilité &amp; Gestion
                         </Link>
                     </li>
+                    <li className={styles.break}>\</li>
                     <li>
                         <Link href="/missions/gestion-rh">Gestion RH</Link>
                     </li>
+                    <li className={styles.break}>\</li>
                     <li>
                         <Link href="/missions/developpement-commercial">
                             Développement commercial
                         </Link>
                     </li>
+                    <li className={styles.break}>\</li>
                     <li>
                         <Link href="/missions/securite-audit">
                             Sécurité &amp; Audit
                         </Link>
                     </li>
+                    <li className={styles.break}>\</li>
                     <li>
                         <Link href="/missions/formation">
                             Formation

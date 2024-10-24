@@ -1,72 +1,6 @@
 @import "../Global.module.scss";
 
-@media only screen and (min-width: 898px) and (max-width: 1024px) {
-  .nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1.5rem;
-    font-family: $font1;
-    text-wrap: nowrap;
-    a {
-      position: relative;
-      font-size: 1.5rem;
-      color: #fff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #a7e1fa;
-      top: 1px;
-    }
-
-    .btnMission {
-      position: relative;
-      all: unset;
-      color: #fff;
-      font-size: 1.5rem;
-      cursor: pointer;
-    }
-
-    .btnMission:hover {
-      position: relative;
-      color: #a7e1fa;
-      top: 1px;
-    }
-    p:hover {
-      top: 1px;
-    }
-
-    .listMission {
-      list-style: none;
-      text-wrap: balance;
-      padding: 1rem 0 1rem 0;
-      margin: 0;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      gap: 1.5rem;
-      position: absolute;
-      left: 0%;
-      top: 84%;
-      z-index: 1000;
-      width: 100%;
-      background-color: #000;
-      box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
-
-      a {
-        font-size: 1.2rem;
-        color: #fff;
-        text-decoration: none;
-      }
-
-      a:hover {
-        color: #a7e1fa;
-      }
-    }
-  }
-}
-@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+@media only screen and (min-width: 1023px) {
   .nav {
     display: flex;
     flex-direction: row;
@@ -101,16 +35,19 @@
     p:hover {
       top: 1px;
     }
-    ul{all: unset;}
+    ul {
+      all: unset;
+    }
     .listMission {
       list-style: none;
       text-wrap: nowrap;
-     padding-bottom: 1rem;
+      padding-bottom: 1rem;
       margin: 0;
       display: flex;
       flex-direction: row;
       justify-content: center;
-      gap: 1.5rem;
+      align-items: center;
+      gap: 0.5rem;
       position: absolute;
       left: 0%;
       top: 84%;
@@ -118,7 +55,11 @@
       width: 100%;
       background-color: #000;
       box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
-
+      .break {
+        color: #a7e1fa;
+        font-weight: bolder;
+        font-size: 1.5rem;
+      }
       a {
         font-size: 1.3rem;
         color: #fff;
@@ -181,11 +122,15 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      gap: 2rem;
+      gap: 1rem;
       width: 100%;
       background-color: #000;
       box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
-
+      .break {
+        color: #a7e1fa;
+        font-weight: bolder;
+        font-size: 2rem;
+      }
       a {
         font-size: 1.5rem;
         color: #fff;
@@ -214,11 +159,10 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      gap: 2rem;
+      gap: 1rem;
       width: 100%;
       background-color: #000;
       box-shadow: rgb(167 225 250) 0px 20px 30px -10px;
-
       a {
         font-size: 1.8rem;
         color: #fff;
@@ -231,7 +175,7 @@
     }
   }
 }
-@media (max-width: 898px) {
+@media (max-width: 1023px) {
   .nav {
     display: none;
   }

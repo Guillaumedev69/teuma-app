@@ -6,7 +6,7 @@ import styles from "@/styles/ImgLogo.module.scss"
 
 const ImgLogo = () => {
     return (
-        <div>
+        <div className={styles.divLogo}>
             <Image className={styles.img} src={Logo} alt="Logo de la société Teuma SME" height={133} width={300} priority={true}/>
         </div>
     );
