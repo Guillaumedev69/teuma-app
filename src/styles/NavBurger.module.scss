@@ -13,14 +13,14 @@
       padding: 0;
       z-index: 2000;
       position: relative;
-      width: 22px; /* Réduit de 40px à 20px */
-      height: 22px; /* Réduit de 40px à 20px */
+      width: 22px;
+      height: 20.5px
     }
 
     .burgerButton span {
       position: absolute;
       width: 22px;
-      height: 3.5px;
+      height: 4px;
       background: #a7e1fa;
       border-radius: 100px;
       display: inline-block;
@@ -33,7 +33,7 @@
     }
 
     .burgerButton .middle {
-      top: 8.5px; /* Réduit proportionnellement */
+      top: 8.5px;
     }
 
     .burgerButton .bottom {
@@ -47,7 +47,7 @@
     .hiddenCheckbox:checked ~ .top {
       transform: rotate(45deg);
       transform-origin: top left;
-      width: 24px; /* Réduit de 48px à 24px */
+      width: 24px;
       left: 2.5px;
     }
 
@@ -58,14 +58,14 @@
     .hiddenCheckbox:checked ~ .bottom {
       transform: rotate(-45deg);
       transform-origin: top left;
-      width: 24px; /* Réduit de 48px à 24px */
+      width: 24px;
       bottom: -0.5px;
     }
 
     .menu {
       position: absolute;
-      top: 23px; /* Ajusté pour correspondre à la taille réduite */
-      right: -20%;
+      top: 23px;
+      right: -36%;
       width: 155px;
       max-width: 155px;
       background-color: #000;

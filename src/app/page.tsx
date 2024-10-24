@@ -13,10 +13,8 @@ import styles from "@/styles/Home.module.scss"
 export default function Home() {
     return (
         <div className={styles.homePage}>
-            <div>
                 <Header />
                 <SectionIntro />
-            </div>
             <main className={styles.mainHomePage} >
                 <BtnContact />
                 <Hexagon />
